@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router";
+import { Link, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
 import { Menu, X, Mountain } from "lucide-react";
 
