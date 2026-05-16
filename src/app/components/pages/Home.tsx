@@ -164,13 +164,13 @@ export function Home() {
               </motion.button>
             </Link>
 
-            <Link to="/reviews">
+            <Link to="/travel">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 text-white font-semibold hover:bg-white/20 transition"
               >
-                Watch Experiences
+                Explore Trips
               </motion.button>
             </Link>
           </motion.div>
