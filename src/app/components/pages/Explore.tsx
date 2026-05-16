@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { Search, MapPin } from "lucide-react";
 import { useState } from "react";
 

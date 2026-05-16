@@ -1,15 +1,17 @@
-import { Outlet } from "react-router";
+import { Outlet } from "react-router-dom";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 
 export function Root() {
   return (
-    <div className="min-h-screen bg-[#0B1F33]">
+    <div className="min-h-screen bg-[#071018] text-white">
+
       <Navbar />
-      <main>
-        <Outlet />
-      </main>
+
+      <Outlet />
+
       <Footer />
+
     </div>
   );
 }

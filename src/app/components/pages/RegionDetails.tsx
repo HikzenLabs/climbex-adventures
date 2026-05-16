@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Link, useParams } from "react-router";
+import { Link, useParams } from "react-router-dom";
 import { MapPin, Mountain, Calendar } from "lucide-react";
 
 export function RegionDetails() {
