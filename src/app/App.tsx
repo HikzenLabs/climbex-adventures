@@ -5,10 +5,12 @@ import { Root } from "../app/components/Root";
 import { Home } from "../app/components/pages/Home";
 import { Treks } from "../app/components/pages/Treks";
 import { TrekDetails } from "../app/components/pages/TrekDetails";
-import { Explore } from "./components/pages/Explore";
+import { Travel } from "./components/pages/Travel";
 import { Reviews } from "./components/pages/Reviews";
 import { Contact } from "./components/pages/Contact";
 import { About } from "./components/pages/About";
+import { DestinationDetails } from "./components/pages/DestinationDetails";
+import { TripDetails } from "./components/pages/TripDetails";
 
 
 function App() {
@@ -20,18 +22,26 @@ function App() {
         <Route path="/" element={<Root />}>
 
           <Route index element={<Home />} />
-          <Route path="Explore" element={<Explore />} />
-          <Route path="Reviews" element={<Reviews />} />
-          <Route path="Contact" element={<Contact />} />
-          <Route path="About" element={<About />} />
+          <Route path="travel" element={<Travel />} />
+          <Route path="reviews" element={<Reviews />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
           <Route path="treks" element={<Treks />} />
 
           <Route
             path="treks/:id"
             element={<TrekDetails />}
           />
+          <Route
+            path="travel/:destination"
+            element={<DestinationDetails />}
+          />
 
         </Route>
+        <Route
+          path="travel/:destination/:trip"
+          element={<TripDetails />}
+        />
 
       </Routes>
 

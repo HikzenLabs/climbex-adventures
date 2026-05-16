@@ -57,8 +57,8 @@ export function Footer() {
               <Link to="/" className="block text-white/60 hover:text-white text-sm transition-colors">
                 Home
               </Link>
-              <Link to="/explore" className="block text-white/60 hover:text-white text-sm transition-colors">
-                Explore Regions
+              <Link to="/travel" className="block text-white/60 hover:text-white text-sm transition-colors">
+                Travel Regions
               </Link>
               <Link to="/treks" className="block text-white/60 hover:text-white text-sm transition-colors">
                 All Treks
