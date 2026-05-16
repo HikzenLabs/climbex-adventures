@@ -11,6 +11,7 @@ import { Contact } from "./components/pages/Contact";
 import { About } from "./components/pages/About";
 import { DestinationDetails } from "./components/pages/DestinationDetails";
 import { TripDetails } from "./components/pages/TripDetails";
+import { TeamMemberDetails } from "./components/pages/TeamMemberDetails";
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
           <Route path="treks" element={<Treks />} />
 
           <Route
-            path="treks/:id"
+            path="/treks/:slug"
             element={<TrekDetails />}
           />
           <Route
@@ -42,7 +43,10 @@ function App() {
           path="travel/:destination/:trip"
           element={<TripDetails />}
         />
-
+        <Route
+  path="/team/:slug"
+  element={<TeamMemberDetails />}
+/>
       </Routes>
 
     </BrowserRouter>
