@@ -3,69 +3,42 @@ import { Link } from "react-router-dom";
 import { Search, MapPin } from "lucide-react";
 import { useState } from "react";
 
-export function Explore() {
+export function Travel() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const regions = [
+  const destinations = [
     {
-      id: "sonamarg",
-      name: "Sonamarg",
-      slug: "sonamarg",
+      id: "kashmir-valley",
+      name: "Kashmir Valley",
+      slug: "kashmir-valley",
       description: "Golden meadow with pristine glaciers and alpine lakes",
-      trekCount: 12,
+      tripsCount: 12,
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800",
-      highlight: "Great Lakes, Gangabal",
+      highlight: "Dal Lake, Shankaracharya Temple",
     },
     {
-      id: "gulmarg",
-      name: "Gulmarg",
-      slug: "gulmarg",
-      description: "Meadow of flowers with stunning mountain vistas",
-      trekCount: 8,
+      id: "ladakh",
+      name: "Ladakh",
+      slug: "ladakh",
+      description: "High-altitude desert with dramatic landscapes",
+      tripsCount: 8,
       image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800",
-      highlight: "Alpine peaks, Apharwat",
+      highlight: "Pangong Lake, Nubra Valley",
     },
     {
-      id: "pahalgam",
-      name: "Pahalgam",
-      slug: "pahalgam",
-      description: "Valley of shepherds surrounded by pine forests",
-      trekCount: 15,
+      id: "indonesia",
+      name: "Indonesia",
+      slug: "indonesia",
+      description: "Tropical paradise with lush jungles and volcanic peaks",
+      tripsCount: 15,
       image: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=800",
-      highlight: "Tarsar, Kolahoi Glacier",
-    },
-    {
-      id: "aru-valley",
-      name: "Aru Valley",
-      slug: "aru-valley",
-      description: "Scenic valley base for high-altitude treks",
-      trekCount: 10,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800",
-      highlight: "Tarsar Marsar, Lidderwat",
-    },
-    {
-      id: "doodhpathri",
-      name: "Doodhpathri",
-      slug: "doodhpathri",
-      description: "Valley of milk with lush green meadows",
-      trekCount: 6,
-      image: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=800",
-      highlight: "Hidden gems, easy treks",
-    },
-    {
-      id: "yusmarg",
-      name: "Yusmarg",
-      slug: "yusmarg",
-      description: "Meadow of Jesus with panoramic mountain views",
-      trekCount: 7,
-      image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800",
-      highlight: "Sunset Point, Nilnag Lake",
+      highlight: "Mount Rinjani, Bali",
     },
   ];
 
-  const filteredRegions = regions.filter((region) =>
-    region.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    region.description.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredDestinations = destinations.filter((destination) =>
+    destination.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    destination.description.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
@@ -115,46 +88,46 @@ export function Explore() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#0B1F33]">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredRegions.map((region, index) => (
+            {filteredDestinations.map((destination, index) => (
               <motion.div
-                key={region.id}
+                key={destination.id}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -10 }}
               >
-                <Link to={`/explore/${region.slug}`}>
+                <Link to={`/travel/${destination.slug}`}>
                   <div className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden hover:border-[#7DD3FC]/50 transition-all duration-300 hover:shadow-2xl hover:shadow-[#7DD3FC]/20 h-full">
                     <div className="relative h-72 overflow-hidden">
                       <img
-                        src={region.image}
-                        alt={region.name}
+                        src={destination.image}
+                        alt={destination.name}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F33] via-[#0B1F33]/50 to-transparent" />
 
                       <div className="absolute top-4 right-4 px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white text-sm font-medium">
-                        {region.trekCount} Treks
+                        {destination.tripsCount} Trips
                       </div>
 
                       <div className="absolute bottom-0 left-0 right-0 p-6">
                         <div className="flex items-center text-[#7DD3FC] mb-2">
                           <MapPin className="w-4 h-4 mr-1" />
-                          <span className="text-sm">{region.highlight}</span>
+                          <span className="text-sm">{destination.highlight}</span>
                         </div>
                         <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-[#7DD3FC] transition-colors">
-                          {region.name}
+                          {destination.name}
                         </h3>
                         <p className="text-white/70 text-sm leading-relaxed">
-                          {region.description}
+                          {destination.description}
                         </p>
                       </div>
                     </div>
 
                     <div className="p-6 border-t border-white/10">
                       <div className="flex items-center justify-between">
-                        <span className="text-white/60 text-sm">Explore Region</span>
+                        <span className="text-white/60 text-sm">Explore Destination</span>
                         <span className="text-[#7DD3FC] group-hover:translate-x-2 transition-transform">
                           →
                         </span>
@@ -166,13 +139,13 @@ export function Explore() {
             ))}
           </div>
 
-          {filteredRegions.length === 0 && (
+          {filteredDestinations.length === 0 && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               className="text-center py-20"
             >
-              <p className="text-white/60 text-lg">No regions found matching your search.</p>
+              <p className="text-white/60 text-lg">No destinations found matching your search.</p>
             </motion.div>
           )}
         </div>
