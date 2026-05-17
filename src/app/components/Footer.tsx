@@ -27,7 +27,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/climbexadventures/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/60 hover:text-[#7DD3FC] transition-colors"

@@ -86,7 +86,7 @@ export function DestinationDetails() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {currentDestination.trips.map((trip: any, index: number) => (
-              <motion.div
+                <motion.div
                 key={trip.id}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ export function DestinationDetails() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -10 }}
               >
-                <Link to={`/travel/${currentDestination.slug}/${trip.slug}`}>
+                <Link to={`/trip/${currentDestination.slug}/${trip.slug}`}>
                   <div className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden hover:border-[#7DD3FC]/50 transition-all duration-300 hover:shadow-2xl hover:shadow-[#7DD3FC]/20">
                     <div className="relative h-64 overflow-hidden">
                       <img

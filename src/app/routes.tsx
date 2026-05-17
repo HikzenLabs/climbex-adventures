@@ -1,27 +1,98 @@
-import { createBrowserRouter } from "react-router-dom";
+import {
+  createBrowserRouter,
+} from "react-router-dom";
+
 import { Root } from "./components/Root";
+
 import { Home } from "./components/pages/Home";
-import { Travel } from "./components/pages/Travel";
-import { Treks } from "./components/pages/Treks";
-import { TrekDetails } from "./components/pages/TrekDetails";
-import { Reviews } from "./components/pages/Reviews";
+
 import { About } from "./components/pages/About";
+
 import { Contact } from "./components/pages/Contact";
+
+import { Treks } from "./components/pages/Treks";
+
+import { TrekDetails } from "./components/pages/TrekDetails";
+
+import { Reviews } from "./components/pages/Reviews";
+
+import { TeamMemberDetails } from "./components/pages/TeamMemberDetails";
+
+import { TripDetails } from "./components/pages/TripDetails";
+
 import { DestinationDetails } from "./components/pages/DestinationDetails";
 
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    Component: Root,
-    children: [
-      { index: true, Component: Home },
-      { path: "travel", Component: Travel },
-      { path: "travel/:region", Component: DestinationDetails },
-      { path: "treks", Component: Treks },
-      { path: "treks/:id", Component: TrekDetails },
-      { path: "reviews", Component: Reviews },
-      { path: "about", Component: About },
-      { path: "contact", Component: Contact },
-    ],
-  },
-]);
+import { Travel } from "./components/pages/Travel"
+
+export const router =
+  createBrowserRouter([
+    {
+      path: "/",
+
+      element: <Root />,
+
+      children: [
+
+        {
+          index: true,
+
+          element: <Home />,
+        },
+
+        {
+          path: "about",
+
+          element: <About />,
+        },
+
+        {
+          path: "contact",
+
+          element: <Contact />,
+        },
+
+        {
+          path: "treks",
+
+          element: <Treks />,
+        },
+
+        {
+          path: "treks/:slug",
+
+          element: <TrekDetails />,
+        },
+
+        {
+          path: "reviews",
+
+          element: <Reviews />,
+        },
+
+        {
+          path: "team/:slug",
+
+          element:
+            <TeamMemberDetails />,
+        },
+        {
+          path: "trip/:destination/:trip",
+
+          element:
+            <TripDetails />,
+        },
+        {
+          path: "travel",
+
+          element:
+            <Travel />,
+        },
+        {
+          path: "travel/:slug",
+
+          element:
+            <DestinationDetails />,
+        },
+      ],
+    },
+  ]);
