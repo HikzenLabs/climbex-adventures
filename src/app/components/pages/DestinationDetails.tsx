@@ -12,7 +12,7 @@ export function DestinationDetails() {
       <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0"
-          style={{
+          style={{ 
             backgroundImage: `url('${currentDestination.image}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -103,9 +103,6 @@ export function DestinationDetails() {
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F33] via-transparent to-transparent" />
-                      <div className="absolute top-4 right-4 px-3 py-1 bg-[#FB923C] text-white text-xs font-semibold rounded-full">
-                        {trip.difficulty}
-                      </div>
                     </div>
 
                     <div className="p-6">

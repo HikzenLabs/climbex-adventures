@@ -123,12 +123,6 @@ export function TripDetails() {
                 </div>
 
                 <div>
-                  <p className="text-white/50 text-sm">Difficulty</p>
-
-                  <h4>{currentTrip.difficulty}</h4>
-                </div>
-
-                <div>
                   <p className="text-white/50 text-sm">Best Season</p>
 
                   <h4>{currentDestination?.bestSeason}</h4>
@@ -223,6 +217,14 @@ export function TripDetails() {
             </div>
 
           </div>
+          {"important_notes" in currentTrip && (
+            <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 mt-8">
+              <h2 className="text-2xl font-bold mb-6 text-yellow-400">
+                Important Notes
+              </h2>
+              <p>{currentTrip.important_notes}</p>
+            </div>
+          )}
 
         </div>
 
