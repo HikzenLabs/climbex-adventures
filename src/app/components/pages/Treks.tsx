@@ -110,6 +110,10 @@ const filteredTreks = treks.filter((trek) => {
       <option value="Baderwah">
         Baderwah
       </option>
+
+      <option value="Kishtwar">
+        Kishtwar
+      </option>
     </select>
 
     {/* MONTH FILTER */}
@@ -144,6 +148,7 @@ const filteredTreks = treks.filter((trek) => {
       <option value="september">
         September
       </option>
+      
     </select>
 
     {/* DIFFICULTY FILTER */}
