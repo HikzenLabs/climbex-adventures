@@ -202,7 +202,7 @@ export const values = [
 export const story = [
   {
     paragraphs: [
-    "Kashmir Adventures was founded in 2015 by Aamir Khan, a passionate mountaineer who grew up in the valleys of Kashmir. Having spent his childhood exploring the mountains and learning from local shepherds, Aamir realized that the world needed to experience the magic of Kashmir's wilderness in a safe, sustainable, and authentic way.",
+    "ClimbX Adventures was founded in 2015 by Aamir Khan, a passionate mountaineer who grew up in the valleys of Kashmir. Having spent his childhood exploring the mountains and learning from local shepherds, Aamir realized that the world needed to experience the magic of Kashmir's wilderness in a safe, sustainable, and authentic way.",
     "What started as small group treks with friends has now grown into Kashmir's most trusted adventure company. We've helped over 500 adventurers discover the pristine alpine lakes, towering peaks, and warm hospitality that make Kashmir truly special.",
     "Our team consists of local guides who know every trail like the back of their hand, experienced mountaineers certified in wilderness first aid, and passionate individuals who believe in responsible tourism and giving back to the communities that host us."
     ]
