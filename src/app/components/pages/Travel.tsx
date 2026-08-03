@@ -12,7 +12,7 @@ export function Travel() {
       name: "Kashmir Valley",
       slug: "kashmir-valley",
       description: "Golden meadow with pristine glaciers and alpine lakes",
-      tripsCount: 12,
+      tripsCount: 3,
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800",
       highlight: "Dal Lake, Shankaracharya Temple",
     },
@@ -21,19 +21,19 @@ export function Travel() {
       name: "Ladakh",
       slug: "ladakh",
       description: "High-altitude desert with dramatic landscapes",
-      tripsCount: 8,
+      tripsCount: 3,
       image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800",
       highlight: "Pangong Lake, Nubra Valley",
     },
-    {
-      id: "indonesia",
-      name: "Indonesia",
-      slug: "indonesia",
-      description: "Tropical paradise with lush jungles and volcanic peaks",
-      tripsCount: 15,
-      image: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=800",
-      highlight: "Mount Rinjani, Bali",
-    },
+    // {
+    //   id: "indonesia",
+    //   name: "Indonesia",
+    //   slug: "indonesia",
+    //   description: "Tropical paradise with lush jungles and volcanic peaks",
+    //   tripsCount: 15,
+    //   image: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=800",
+    //   highlight: "Mount Rinjani, Bali",
+    // },
   ];
 
   const filteredDestinations = destinations.filter((destination) =>
@@ -42,8 +42,8 @@ export function Travel() {
   );
 
   return (
-    <div className="min-h-screen pt-20">
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div className="min-h-screen">
+      <section className="relative pt-40 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div
           className="absolute inset-0"
           style={{
@@ -63,10 +63,10 @@ export function Travel() {
             className="text-center mb-12"
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Explore <span className="text-[#7DD3FC]">Kashmir</span> by Region
+              Explore <span className="text-[#7DD3FC]">Destinations</span> by Region
             </h1>
             <p className="text-xl text-white/70 max-w-3xl mx-auto mb-12">
-              Discover breathtaking trekking routes across Kashmir's most stunning regions
+              Discover breathtaking trips across various stunning destinations
             </p>
 
             <div className="max-w-2xl mx-auto">

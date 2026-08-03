@@ -48,7 +48,7 @@ const filteredTreks = treks.filter((trek) => {
   return (
 
     
-    <div className="min-h-screen bg-[#071018] py-24 px-4">
+    <div className="min-h-screen bg-[#0B1F33] py-24 px-4">
 
 
       <div className="max-w-7xl mx-auto">
@@ -93,7 +93,7 @@ const filteredTreks = treks.filter((trek) => {
         setRegionFilter(e.target.value)
       }
 
-      className="h-12 bg-[#071018]/80 border border-white/10 rounded-xl px-4 text-sm text-white outline-none focus:border-[#7DD3FC]/50 transition"
+      className="h-12 bg-[#0B1F33]/80 border border-white/10 rounded-xl px-4 text-sm text-white outline-none focus:border-[#7DD3FC]/50 transition"
     >
       <option value="all">
         All Regions
@@ -127,7 +127,7 @@ const filteredTreks = treks.filter((trek) => {
         setMonthFilter(e.target.value)
       }
 
-      className="h-12 bg-[#071018]/80 border border-white/10 rounded-xl px-4 text-sm text-white outline-none focus:border-[#7DD3FC]/50 transition"
+      className="h-12 bg-[#0B1F33]/80 border border-white/10 rounded-xl px-4 text-sm text-white outline-none focus:border-[#7DD3FC]/50 transition"
     >
       <option value="all">
         All Months
@@ -162,7 +162,7 @@ const filteredTreks = treks.filter((trek) => {
         setDifficultyFilter(e.target.value)
       }
 
-      className="h-12 bg-[#071018]/80 border border-white/10 rounded-xl px-4 text-sm text-white outline-none focus:border-[#7DD3FC]/50 transition"
+      className="h-12 bg-[#0B1F33]/80 border border-white/10 rounded-xl px-4 text-sm text-white outline-none focus:border-[#7DD3FC]/50 transition"
     >
       <option value="all">
         All Difficulty

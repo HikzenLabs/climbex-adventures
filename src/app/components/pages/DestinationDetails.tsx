@@ -4,12 +4,12 @@ import { MapPin, Mountain, Calendar } from "lucide-react";
 import { destinations } from "../../../data/destinations";         
 
 export function DestinationDetails() {
-  const { destination: trip  } = useParams();
-
-  const currentDestination = destinations.find((d) => d.slug === trip) || destinations[0];
+  
+  const { slug } = useParams();
+  const currentDestination = destinations.find((d) => d.slug === slug) || destinations[0];
   return (
-    <div className="min-h-screen pt-20">
-      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
+    <div className="min-h-screen">
+      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden pt-20">
         <div
           className="absolute inset-0"
           style={{ 

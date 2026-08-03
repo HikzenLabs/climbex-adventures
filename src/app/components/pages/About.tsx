@@ -14,8 +14,8 @@ export function About() {
 
 
   return (
-    <div className="min-h-screen pt-20">
-      <section className="relative py-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div className="min-h-screen">
+      <section className="relative pt-52 pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div
           className="absolute inset-0"
           style={{

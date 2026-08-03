@@ -11,7 +11,7 @@ import {
 
 export function Reviews() {
   return (
-    <div className="min-h-screen pt-20 bg-[#071018] overflow-hidden">
+    <div className="min-h-screen pt-20 bg-[#0B1F33] overflow-hidden">
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#0B1F33] to-[#0F3D2E]/50">
 
