@@ -747,7 +747,6 @@ export const treks = [
     "/images/treks/kalapari-lake-trek/4.png",
 
     "/images/treks/kalapari-lake-trek/5.PNG",
-    
   ],
 
   overview:
