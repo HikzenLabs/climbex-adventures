@@ -713,7 +713,7 @@ export const treks = [
 
   duration: "7 Days & 6 Nights",
 
-  difficulty: "Moderate-Hard",
+  difficulty: "Moderate",
 
   price: "₹25,000",
 
@@ -727,7 +727,7 @@ export const treks = [
 
   trekDistance: "53 KM",
 
-  bestSeason: "August - September",
+  bestSeason: "June - September",
 
   pickupPoint: "Srinagar",
 
@@ -745,6 +745,9 @@ export const treks = [
     "/images/treks/kalapari-lake-trek/3.png",
 
     "/images/treks/kalapari-lake-trek/4.png",
+
+    "/images/treks/kalapari-lake-trek/5.PNG",
+    
   ],
 
   overview:
@@ -773,12 +776,16 @@ export const treks = [
     "Warm layers",
     "Thermals",
     "Torch",
+    "Rain jacket",
+    "Water bottle",
+    "Sunglasses",
+    "Power bank",
   ],
 
   safetyProtocols: [
-    "Emergency evacuation support",
     "Altitude monitoring",
     "First aid assistance",
+
   ],
 
   itinerary: [
