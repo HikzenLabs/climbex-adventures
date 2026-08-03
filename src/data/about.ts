@@ -42,121 +42,67 @@ export const stats = [
 ];
 
 export const team = [
-  {
+   {
     id: "1",
-
-    slug: "aamir-khan",
-
-    name: "Aamir Khan",
-
+    slug: "leo-saqib",
+    name: "Leo Saqib",
     role: "Founder & Lead Guide",
-
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400",
-
-    bio:
-      "15+ years of trekking experience in Kashmir",
-
-    experience: "15+ Years",
-
+    image: "/team/leo-saqib.jpg",
+    bio: "Experienced trek leader with a passion for exploring the Himalayas.",
+    experience: "50+ Treks Led",
     location: "Srinagar, Kashmir",
-
-    specialization:
-      "High Altitude Expeditions",
-
+    specialization: "Trekking & Outdoor Leadership",
     achievements: [
-      "Led 300+ treks",
-      "Certified mountaineer",
-      "Wilderness first aid expert",
+      "Led 50+ treks",
+      "Expert trek leader",
+      "Experienced Himalayan guide",
     ],
-
     social: {
-      instagram:
-        "https://instagram.com",
-
-      linkedin:
-        "https://linkedin.com",
-
-      youtube:
-        "https://youtube.com",
+      instagram: "https://instagram.com/leo_saqib",
+      linkedin: "https://linkedin.com",
+      youtube: "https://youtube.com",
+    },
+  },
+     {
+    id: "2",
+    slug: "yasir-khan",
+    name: "Yasir Khan",
+    role: "Founder & Lead Guide",
+    image: "/team/yasir.jpg",
+    bio: "Mountaineer with 6 years of experience leading technical and high-altitude expeditions.",
+    experience: "6 Years",
+    location: "Srinagar, Kashmir",
+    specialization: "Mountaineering & High Altitude Treks",
+    achievements: [
+      "Led 70+ treks",
+      "6 years of mountaineering experience",
+      "Specialist in high-altitude expeditions",
+    ],
+    social: {
+      instagram: "https://instagram.com/yasir__kh4n",
+      linkedin: "https://linkedin.com",
+      youtube: "https://youtube.com",
     },
   },
     {
-    id: "1",
-
-    slug: "aamir-khan",
-
-    name: "Aamir Khan",
-
-    role: "Founder & Lead Guide",
-
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400",
-
-    bio:
-      "15+ years of trekking experience in Kashmir",
-
-    experience: "15+ Years",
-
-    location: "Srinagar, Kashmir",
-
-    specialization:
-      "High Altitude Expeditions",
-
+    id: "3",
+    slug: "surya-singh",
+    name: "Surya Singh",
+    role: "Lead Guide",
+    image: "/team/surya.jpg",
+    bio: "Traveller and outdoor guide with 12 years of experience exploring the mountains of Jammu & Kashmir.",
+    experience: "12 Years",
+    location: "Jammu & Kashmir",
+    specialization: "Travel & High Altitude Treks",
     achievements: [
-      "Led 300+ treks",
-      "Certified mountaineer",
-      "Wilderness first aid expert",
+      "Led 60+ treks",
+      "12 years of outdoor experience",
+      "Experienced Himalayan traveler",
     ],
-
     social: {
-      instagram:
-        "https://instagram.com",
-
-      linkedin:
-        "https://linkedin.com",
-
-      youtube:
-        "https://youtube.com",
-    },
-  },
-    {
-    id: "1",
-
-    slug: "aamir-khan",
-
-    name: "Aamir Khan",
-
-    role: "Founder & Lead Guide",
-
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400",
-
-    bio:
-      "15+ years of trekking experience in Kashmir",
-
-    experience: "15+ Years",
-
-    location: "Srinagar, Kashmir",
-
-    specialization:
-      "High Altitude Expeditions",
-
-    achievements: [
-      "Led 300+ treks",
-      "Certified mountaineer",
-      "Wilderness first aid expert",
-    ],
-
-    social: {
-      instagram:
-        "https://instagram.com",
-
-      linkedin:
-        "https://linkedin.com",
-
-      youtube:
-        "https://youtube.com",
+      instagram: "https://instagram.com",
+      linkedin: "https://linkedin.com",
+      youtube: "https://youtube.com",
     },
   },
 ];

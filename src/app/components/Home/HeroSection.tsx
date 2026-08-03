@@ -14,9 +14,10 @@ export function HeroSection() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const heroImages = [
-    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2000",
-    "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000",
-    "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=2000",
+    "/kolahoi_home_pic.jpeg",
+    "/durinar_2_home.jpeg",
+    "/khemsar_home.jpeg",
+    "/gulmarg_home.jpeg"
   ];
 
   useEffect(() => {

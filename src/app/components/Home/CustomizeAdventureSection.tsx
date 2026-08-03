@@ -40,9 +40,9 @@ export function CustomizeAdventureSection() {
     try {
 
       await emailjs.send(
-        "YOUR_SERVICE_ID",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
 
-        "YOUR_TEMPLATE_ID",
+        import.meta.env.VITE_EMAILJS_ADVENTURE_TEMPLATE_ID,
 
         {
           destination:
@@ -61,7 +61,7 @@ export function CustomizeAdventureSection() {
             formData.message,
         },
 
-        "YOUR_PUBLIC_KEY"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
 
       alert(

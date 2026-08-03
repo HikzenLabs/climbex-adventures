@@ -7,7 +7,7 @@ export function CtaSection (){
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2000')",
+              "url('d:\workspace\HikzenLabs\images\kolahoi_home_pic.jpeg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
