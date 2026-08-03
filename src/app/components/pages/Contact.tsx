@@ -154,7 +154,7 @@ export function Contact() {
   ];
 
   return (
-    <div className="min-h-screen pt-20 bg-[#071018] relative overflow-hidden">
+    <div className="min-h-screen pt-20 bg-[#0B1F33] relative overflow-hidden">
 
       {/* GLOW EFFECTS */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-[#7DD3FC]/10 blur-[120px] rounded-full" />
