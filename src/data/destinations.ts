@@ -33,6 +33,10 @@ export const destinations = [
           "/images/travel/kashmir/kashmir-escape/kashmir1.jpeg",
           "/images/travel/kashmir/kashmir-escape/kashmir2.jpeg",
           "/images/travel/kashmir/kashmir-escape/kashmir3.jpeg",
+          "/images/travel/kashmir/kashmir-escape/kashmir4.jpeg",
+          "/images/travel/kashmir/kashmir-escape/kashmir5.jpeg",
+
+          
         ],
 
         overview:
