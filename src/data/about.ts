@@ -47,7 +47,7 @@ export const team = [
     slug: "leo-saqib",
     name: "Leo Saqib",
     role: "Founder & Lead Guide",
-    image: "/team/leo-saqib.jpg",
+    image: "/images/about/leo.jpeg",
     bio: "Experienced trek leader with a passion for exploring the Himalayas.",
     experience: "50+ Treks Led",
     location: "Srinagar, Kashmir",
@@ -60,7 +60,7 @@ export const team = [
     social: {
       instagram: "https://instagram.com/leo_saqib",
       linkedin: "https://linkedin.com",
-      youtube: "https://youtube.com",
+      youtube: "https://youtube.com/@leosaqib7?si=UsuH6dFRz8YO12Yf",
     },
   },
      {
@@ -68,7 +68,7 @@ export const team = [
     slug: "yasir-khan",
     name: "Yasir Khan",
     role: "Founder & Lead Guide",
-    image: "/team/yasir.jpg",
+    image: "/images/about/yasir.jpeg",
     bio: "Mountaineer with 6 years of experience leading technical and high-altitude expeditions.",
     experience: "6 Years",
     location: "Srinagar, Kashmir",
@@ -97,12 +97,12 @@ export const team = [
     achievements: [
       "Led 60+ treks",
       "12 years of outdoor experience",
-      "Experienced Himalayan traveler",
+      "Experienced Himalayan traveler and a storyteller",
     ],
     social: {
       instagram: "https://instagram.com",
       linkedin: "https://linkedin.com",
-      youtube: "https://youtube.com",
+      youtube: "https://youtube.com/@suryasingh_j?si=ls_1R3NO5Xm9aRHUg",
     },
   },
 ];
@@ -148,9 +148,7 @@ export const values = [
 export const story = [
   {
     paragraphs: [
-    "ClimbX Adventures was founded in 2015 by Aamir Khan, a passionate mountaineer who grew up in the valleys of Kashmir. Having spent his childhood exploring the mountains and learning from local shepherds, Aamir realized that the world needed to experience the magic of Kashmir's wilderness in a safe, sustainable, and authentic way.",
-    "What started as small group treks with friends has now grown into Kashmir's most trusted adventure company. We've helped over 500 adventurers discover the pristine alpine lakes, towering peaks, and warm hospitality that make Kashmir truly special.",
-    "Our team consists of local guides who know every trail like the back of their hand, experienced mountaineers certified in wilderness first aid, and passionate individuals who believe in responsible tourism and giving back to the communities that host us."
+    "Climbex Adventures was founded in 2015 by Leo Saqib, Yasir Khan, and Surya Singh, three passionate mountaineers united by their love for the Himalayas and the spirit of exploration. Our journey began long before Climbex. As young adventurers, we spent countless weekends hiking with local trekking and mountaineering clubs, exploring the mountains of Kashmir and learning from experienced climbers. What started as a hobby soon became a lifelong passion for the outdoors. Driven by our commitment to adventure and safety, we pursued professional certifications in Mountaineering and Basic Life Support (BLS), continuously honing our technical and rescue skills. Over the years, we progressed from participating in expeditions to leading them—organizing treks, high-altitude expeditions, mountaineering courses, and adventure experiences across the Himalayas. Our dedication has taken us to some of the region's most challenging peaks, where we've achieved significant summits, led successful expeditions, and built a reputation for professionalism, safety, and excellence. Along the way, we've had the privilege of welcoming adventurers from across India and around the world, helping them experience the beauty of the Himalayas through carefully planned and responsibly guided journeys. Today, Climbex Adventures is a trusted name in Himalayan travel, known for combining safety, local expertise, and unforgettable experiences. Every trip is led by trained professionals who understand the mountains, prioritize your well-being, and are committed to responsible and sustainable tourism. Whether you're taking your first trek or preparing for a technical expedition, our mission remains the same—to create adventures that are safe, authentic, and truly unforgettable."
     ]
   },
   
