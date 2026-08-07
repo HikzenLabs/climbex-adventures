@@ -46,6 +46,8 @@ export function WhatsAppPopup() {
           </button>
         </div>
 
+        
+
         {/* Body */}
         <div className="p-5">
           <p className="text-sm sm:text-base text-foreground/70 mb-5 leading-relaxed">
