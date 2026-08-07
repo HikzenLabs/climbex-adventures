@@ -56,7 +56,7 @@ export function WhatsAppPopup() {
           </p>
 
           <a
-            href="https://wa.me/918493009936?text=Hi%20HikzenLabs,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+            href="https://wa.me/918493009936?text=Hi%20ClimbexAdventures,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 w-full rounded-xl bg-green-500 hover:bg-green-600 text-white px-5 py-3 font-medium transition-all duration-300 hover:scale-[1.02]"
