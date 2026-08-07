@@ -43,7 +43,7 @@ export function Footer() {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="mailto:info@climbexAdv.com"
+                href="mailto:climbexadventures@gmail.com"
                 className="text-white/60 hover:text-[#7DD3FC] transition-colors"
               >
                 <Mail className="w-5 h-5" />
@@ -96,11 +96,11 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-white/60 text-sm">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>+91 1234567890</span>
+                <span>+91 9797843568</span>
               </div>
               <div className="flex items-center space-x-2 text-white/60 text-sm">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>info@kashmirtrek.com</span>
+                <span>climbexadventures@gmail.com</span>
               </div>
             </div>
           </div>

@@ -13,7 +13,7 @@ export function Travel() {
       slug: "kashmir-valley",
       description: "Golden meadow with pristine glaciers and alpine lakes",
       tripsCount: 3,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800",
+      image: "/images/travel/kashmir/classic-kashmir/kashmir4.jpeg",
       highlight: "Dal Lake, Shankaracharya Temple",
     },
     {
@@ -22,7 +22,7 @@ export function Travel() {
       slug: "ladakh",
       description: "High-altitude desert with dramatic landscapes",
       tripsCount: 3,
-      image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800",
+      image: "/images/travel/ladakh/short-escape-to-zanskar/5.jpeg",
       highlight: "Pangong Lake, Nubra Valley",
     },
     // {

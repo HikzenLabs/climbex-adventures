@@ -135,19 +135,6 @@ export function TeamMemberDetails() {
               </a>
 
               <a
-                href={member.social.linkedin}
-
-                target="_blank"
-
-                rel="noopener noreferrer"
-
-                className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:bg-[#0A66C2]/20 hover:border-[#0A66C2]/40 transition-all duration-300"
-              >
-
-                <Linkedin className="w-5 h-5" />
-              </a>
-
-              <a
                 href={member.social.youtube}
 
                 target="_blank"
@@ -276,7 +263,7 @@ export function TeamMemberDetails() {
 
               {/* CONTACT BUTTON */}
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/9797843568"
 
                 target="_blank"
 
