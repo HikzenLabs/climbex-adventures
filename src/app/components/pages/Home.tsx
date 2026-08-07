@@ -4,6 +4,7 @@ import { HeroSection } from "../Home/HeroSection";
 import { FeaturedReviewsSection } from "../Home/FeaturedReviewsSection";
 import { FeaturedTreksSection } from "../Home/FeaturedTreksSection";
 import { CtaSection } from "../Home/CtaSection";
+import { FeaturedTravelsSection } from "../Home/FeaturedTravelsSection";
 
 export function Home() {
 
@@ -16,6 +17,10 @@ export function Home() {
 
       {/* FEATURED TREKS */}
       <FeaturedTreksSection />
+
+      {/* FEATURED Travels */}
+      <FeaturedTravelsSection />
+
       {/* Customized Adventures */}
       <CustomizeAdventureSection />
       {/* REVIEWS */}

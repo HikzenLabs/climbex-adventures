@@ -10,33 +10,25 @@ import {
 export const stats = [
   {
     icon: Users,
-
     value: "500+",
-
     label: "Happy Trekkers",
   },
 
   {
     icon: Mountain,
-
     value: "50+",
-
     label: "Treks Completed",
   },
 
   {
     icon: Award,
-
     value: "4.9",
-
     label: "Average Rating",
   },
 
   {
     icon: Shield,
-
     value: "100%",
-
     label: "Safety Record",
   },
 ];
@@ -67,6 +59,7 @@ export const team = [
     id: "2",
     slug: "yasir-khan",
     name: "Yasir Khan",
+
     role: "Co-Founder & Lead Guide",
     image: "/images/about/yasir.jpeg",
     bio: "Mountaineer with 6 years of experience leading technical and high-altitude expeditions.",
