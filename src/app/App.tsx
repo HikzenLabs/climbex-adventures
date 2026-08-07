@@ -1,7 +1,7 @@
 import { BrowserRouter, RouterProvider } from "react-router-dom";
 
 import { router } from "./routes";
-import { WhatsappPopUp } from "./components/Home/WhatsappPopUp";
+import { WhatsAppPopup } from "./components/Home/WhatsAppPopup";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      <WhatsappPopUp />
+      <WhatsAppPopup />
     </>
   );
 }
