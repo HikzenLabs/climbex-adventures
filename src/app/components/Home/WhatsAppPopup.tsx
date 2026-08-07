@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { X } from "lucide-react";
 
-export function WhatsAppPopup() {
+export function WhatsappPopUp() {
   const [open, setOpen] = useState(true);
   const [visible, setVisible] = useState(false);
 
