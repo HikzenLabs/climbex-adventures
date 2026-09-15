@@ -8,7 +8,7 @@ export const destinations = [
       "Kashmir Valley is a breathtaking region known for its lush greenery, pristine lakes, and snow-capped mountains.",
 
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2000",
+      "/images/travel/kashmir/kashmir-escape/kashmir4.jpeg",
 
     bestSeason: "All Year Round",
 
@@ -30,11 +30,13 @@ export const destinations = [
         date: "Jan-Dec",
 
         images: [
-          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200",
+          "/images/travel/kashmir/kashmir-escape/kashmir1.jpeg",
+          "/images/travel/kashmir/kashmir-escape/kashmir2.jpeg",
+          "/images/travel/kashmir/kashmir-escape/kashmir3.jpeg",
+          "/images/travel/kashmir/kashmir-escape/kashmir4.jpeg",
+          "/images/travel/kashmir/kashmir-escape/kashmir5.jpeg",
 
-          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=1200",
+          
         ],
 
         overview:
@@ -128,11 +130,10 @@ export const destinations = [
         date: "Jan-Dec",
 
         images: [
-          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=1200",
+          "/images/travel/kashmir/classic-kashmir/kashmir4.jpeg",
+          "/images/travel/kashmir/classic-kashmir/kashmir2.jpeg",
+          
+          
         ],
 
         overview:
@@ -362,11 +363,7 @@ export const destinations = [
         date: "June - September",
 
         images: [
-          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=1200",
+          "/images/travel/ladakh/indus_valley/ladakh.jpeg"
         ],
 
         overview:

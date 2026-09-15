@@ -117,7 +117,7 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/9797843568"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full px-6 py-3 bg-gradient-to-r from-[#FB923C] to-[#F97316] text-white text-center rounded-full font-medium"

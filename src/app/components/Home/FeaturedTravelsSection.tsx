@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { destinations } from "../../../data/destinations";
 
+
+
 export function FeaturedTravelsSection() {
   const featuredTrips = destinations
     .filter((d) => d.trips?.length > 0)

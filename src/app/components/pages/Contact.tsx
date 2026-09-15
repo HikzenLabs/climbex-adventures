@@ -24,7 +24,7 @@ export function Contact() {
       name: "",
       email: "",
       phone: "",
-      trek: "",
+      interestedIn: "",
       message: "",
     });
 
@@ -39,9 +39,9 @@ export function Contact() {
     try {
 
       await emailjs.send(
-        "YOUR_SERVICE_ID",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
 
-        "YOUR_TEMPLATE_ID",
+        import.meta.env.VITE_EMAILJS_CONTACT_TEMPLATE_ID,
 
         {
           name: formData.name,
@@ -50,12 +50,12 @@ export function Contact() {
 
           phone: formData.phone,
 
-          trek: formData.trek,
+          interestedIn: formData.interestedIn,
 
           message: formData.message,
         },
 
-        "YOUR_PUBLIC_KEY"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
 
       alert(
@@ -66,7 +66,7 @@ export function Contact() {
         name: "",
         email: "",
         phone: "",
-        trek: "",
+        interestedIn: "",
         message: "",
       });
 
@@ -88,9 +88,9 @@ export function Contact() {
 
       title: "Phone",
 
-      content: "+91 1234567890",
+      content: "+91 9797843568",
 
-      link: "tel:+911234567890",
+      link: "tel:+919797843568",
     },
 
     {
@@ -98,10 +98,10 @@ export function Contact() {
 
       title: "Email",
 
-      content: "info@climbexadventures.com",
+      content: "climbexadventures@gmail.com",
 
       link:
-        "mailto:info@climbexadventures.com",
+        "mailto:climbexadventures@gmail.com",
     },
 
     {
@@ -122,7 +122,7 @@ export function Contact() {
 
       name: "WhatsApp",
 
-      link: "https://wa.me/1234567890",
+      link: "https://wa.me/9797843568",
 
       color:
         "from-[#25D366] to-[#128C7E]",
@@ -341,7 +341,7 @@ export function Contact() {
 
                       required
 
-                      placeholder="+91 1234567890"
+                      placeholder="+91 9797843568"
 
                       className="w-full pl-12 px-5 py-4 bg-white/5 border border-white/10 rounded-2xl text-white placeholder-white/30 outline-none focus:border-[#7DD3FC] focus:ring-2 focus:ring-[#7DD3FC]/40"
                     />
@@ -358,16 +358,16 @@ export function Contact() {
                 </label>
 
                 <select
-                  value={formData.trek}
+                  value={formData.interestedIn}
 
                   onChange={(e) =>
                     setFormData({
                       ...formData,
-                      trek: e.target.value,
+                      interestedIn: e.target.value,
                     })
                   }
 
-                  className="w-full bg-[#071018] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-[#7DD3FC] focus:ring-2 focus:ring-[#7DD3FC]/40"
+                  className="w-full bg-[#0B1F33] border border-white/10 rounded-2xl px-5 py-4 text-white outline-none focus:border-[#7DD3FC] focus:ring-2 focus:ring-[#7DD3FC]/40"
                 >
 
                   <option value="">
@@ -383,7 +383,7 @@ export function Contact() {
                   </option>
 
                   <option>
-                    Expedidtion
+                    Expedition
                   </option>
                 </select>
               </div>
@@ -563,7 +563,7 @@ export function Contact() {
               </p>
 
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/9797843568"
 
                 target="_blank"
 
