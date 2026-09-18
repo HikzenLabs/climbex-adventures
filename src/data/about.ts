@@ -76,27 +76,27 @@ export const team = [
       youtube: "https://youtube.com",
     },
   },
-    {
-    id: "3",
-    slug: "surya-singh",
-    name: "Surya Singh",
-    role: "Lead Guide",
-    image: "/team/surya.jpg",
-    bio: "Traveller and outdoor guide with 12 years of experience exploring the mountains of Jammu & Kashmir.",
-    experience: "12 Years",
-    location: "Jammu & Kashmir",
-    specialization: "Travel & High Altitude Treks",
-    achievements: [
-      "Led 60+ treks",
-      "12 years of outdoor experience",
-      "Experienced Himalayan traveler and a storyteller",
-    ],
-    social: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
-      youtube: "https://youtube.com/@suryasingh_j?si=ls_1R3NO5Xm9aRHUg",
-    },
-  },
+  //   {
+  //   id: "3",
+  //   slug: "surya-singh",
+  //   name: "Surya Singh",
+  //   role: "Founder",
+  //   image: "/images/about/surya.jpeg",
+  //   bio: "Traveller and outdoor guide with 12 years of experience exploring the mountains of Jammu & Kashmir.",
+  //   experience: "12 Years",
+  //   location: "Jammu & Kashmir",
+  //   specialization: "Travel & High Altitude Treks",
+  //   achievements: [
+  //     "Led 60+ treks",
+  //     "12 years of outdoor experience",
+  //     "Experienced Himalayan traveler and a storyteller",
+  //   ],
+  //   social: {
+  //     instagram: "https://instagram.com",
+  //     linkedin: "https://linkedin.com",
+  //     youtube: "https://youtube.com/@suryasingh_j?si=ls_1R3NO5Xm9aRHUg",
+  //   },
+  // },
 ];
 
 export const values = [
