@@ -39,7 +39,7 @@ export const team = [
     slug: "leo-saqib",
     name: "Leo Saqib",
     role: "Founder & Lead Guide",
-    image: "/team/leo-saqib.jpg",
+    image: "/images/about/leo.jpeg",
     bio: "Experienced trek leader with a passion for exploring the Himalayas.",
     experience: "50+ Treks Led",
     location: "Srinagar, Kashmir",
@@ -52,7 +52,7 @@ export const team = [
     social: {
       instagram: "https://instagram.com/leo_saqib",
       linkedin: "https://linkedin.com",
-      youtube: "https://youtube.com",
+      youtube: "https://youtube.com/@leosaqib7?si=UsuH6dFRz8YO12Yf",
     },
   },
      {
@@ -60,7 +60,7 @@ export const team = [
     slug: "yasir-khan",
     name: "Yasir Khan",
     role: "Founder & Lead Guide",
-    image: "/team/yasir.jpg",
+    image: "/images/about/yasir.jpeg",
     bio: "Mountaineer with 6 years of experience leading technical and high-altitude expeditions.",
     experience: "6 Years",
     location: "Srinagar, Kashmir",
@@ -76,27 +76,27 @@ export const team = [
       youtube: "https://youtube.com",
     },
   },
-    {
-    id: "3",
-    slug: "surya-singh",
-    name: "Surya Singh",
-    role: "Lead Guide",
-    image: "/team/surya.jpg",
-    bio: "Traveller and outdoor guide with 12 years of experience exploring the mountains of Jammu & Kashmir.",
-    experience: "12 Years",
-    location: "Jammu & Kashmir",
-    specialization: "Travel & High Altitude Treks",
-    achievements: [
-      "Led 60+ treks",
-      "12 years of outdoor experience",
-      "Experienced Himalayan traveler",
-    ],
-    social: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
-      youtube: "https://youtube.com",
-    },
-  },
+  //   {
+  //   id: "3",
+  //   slug: "surya-singh",
+  //   name: "Surya Singh",
+  //   role: "Founder",
+  //   image: "/images/about/surya.jpeg",
+  //   bio: "Traveller and outdoor guide with 12 years of experience exploring the mountains of Jammu & Kashmir.",
+  //   experience: "12 Years",
+  //   location: "Jammu & Kashmir",
+  //   specialization: "Travel & High Altitude Treks",
+  //   achievements: [
+  //     "Led 60+ treks",
+  //     "12 years of outdoor experience",
+  //     "Experienced Himalayan traveler and a storyteller",
+  //   ],
+  //   social: {
+  //     instagram: "https://instagram.com",
+  //     linkedin: "https://linkedin.com",
+  //     youtube: "https://youtube.com/@suryasingh_j?si=ls_1R3NO5Xm9aRHUg",
+  //   },
+  // },
 ];
 
 export const values = [
