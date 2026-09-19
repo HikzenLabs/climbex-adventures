@@ -31,7 +31,7 @@ export function CtaSection (){
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
 
             <a
-              href="https://wa.me/9797843568"
+              href="https://wa.me/918493009936"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-full bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white font-semibold"

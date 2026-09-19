@@ -88,9 +88,9 @@ export function Contact() {
 
       title: "Phone",
 
-      content: "+91 9797843568",
+      content: "+91 84930 09936",
 
-      link: "tel:+919797843568",
+      link: "tel:+918493009936",
     },
 
     {
@@ -122,7 +122,7 @@ export function Contact() {
 
       name: "WhatsApp",
 
-      link: "https://wa.me/9797843568",
+      link: "https://wa.me/918493009936",
 
       color:
         "from-[#25D366] to-[#128C7E]",
@@ -341,7 +341,7 @@ export function Contact() {
 
                       required
 
-                      placeholder="+91 9797843568"
+                      placeholder="+91 XXXXX XXXXX"
 
                       className="w-full pl-12 px-5 py-4 bg-white/5 border border-white/10 rounded-2xl text-white placeholder-white/30 outline-none focus:border-[#7DD3FC] focus:ring-2 focus:ring-[#7DD3FC]/40"
                     />
@@ -563,7 +563,7 @@ export function Contact() {
               </p>
 
               <a
-                href="https://wa.me/9797843568"
+                href="https://wa.me/918493009936"
 
                 target="_blank"
 
