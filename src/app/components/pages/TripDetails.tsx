@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { destinations } from "../../../data/destinations";
+import { buildBookingLink } from "../../utils/whatsapp";
 
 export function TripDetails() {
 
@@ -131,7 +132,12 @@ export function TripDetails() {
               </div>
 
               <a
-                href="https://wa.me/918493009936"
+                href={buildBookingLink({
+                  name: currentTrip.name,
+                  duration: currentTrip.duration,
+                  price: currentTrip.price,
+                  location: currentDestination?.name,
+                })}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full mt-8 text-center bg-gradient-to-r from-[#25D366] to-[#128C7E] py-4 rounded-2xl font-semibold text-lg"

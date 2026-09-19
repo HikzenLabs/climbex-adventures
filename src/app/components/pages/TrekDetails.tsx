@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 
 import { treks } from "../../../data/treks";
+import { buildBookingLink } from "../../utils/whatsapp";
 
 export function TrekDetails() {
 
@@ -382,7 +383,12 @@ export function TrekDetails() {
 
               {/* BUTTON */}
               <a
-                href="https://wa.me/918493009936"
+                href={buildBookingLink({
+                  name: trek.name,
+                  duration: trek.duration,
+                  price: trek.price,
+                  location: trek.region,
+                })}
                 target="_blank"
                 rel="noopener noreferrer"
 
