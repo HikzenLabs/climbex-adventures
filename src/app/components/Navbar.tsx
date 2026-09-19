@@ -70,7 +70,7 @@ export function Navbar() {
               </Link>
             ))}
             <motion.a
-              href="https://wa.me/9797843568"
+              href="https://wa.me/918493009936"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -117,7 +117,7 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href="https://wa.me/9797843568"
+              href="https://wa.me/918493009936"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full px-6 py-3 bg-gradient-to-r from-[#FB923C] to-[#F97316] text-white text-center rounded-full font-medium"

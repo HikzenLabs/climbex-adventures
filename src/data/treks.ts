@@ -846,5 +846,138 @@ export const treks = [
         "Trek Distance: 8 km. Trek Time: 4 hours. Drive Distance: 210 km. Drive Time: 8–9 hours. Wake up early and begin the final trek back to Panikhar. The path is the same as Day 2 and takes around 4 hours. Once you reach Panikhar, take a short rest and begin your drive to Srinagar. The long drive passes through the same beautiful route via Kargil and Sonamarg. You will reach Srinagar by late evening. This marks the end of the Kalapari Lake Trek. Enjoy your hotel stay or houseboat rest in Srinagar.",
     },
   ],
+},
+{
+  id: "2",
+
+  slug: "Suru-Valley-Adventure-Tour",
+
+  name: "Suru Valley Adventure Tour",
+
+  region: "Ladakh",
+
+  duration: "5 Days & 4 Nights",
+
+  difficulty: "Moderate",
+
+  price: "₹22,000",
+
+  date: "June - September 2026",
+
+  status: "upcoming",
+
+  altitude: "Suru Valley, Ladakh",
+
+  groupSize: "Private Tour",
+
+  trekDistance: "Rock Climbing Tour",
+
+  bestSeason: "June - September",
+
+  pickupPoint: "Srinagar",
+
+  temperature: "-5°C to 20°C",
+
+  fitnessRequired: "Moderate to Advanced (Rock Climbing Experience)",
+
+  stayType: "Guest House / Homestay / Hotel",
+
+  images: [
+    "/images/treks/suru-valley-adventure-tour/1.webp",
+
+    "/images/treks/suru-valley-adventure-tour/2.webp",
+
+    "/images/treks/suru-valley-adventure-tour/3.webp",
+
+    "/images/treks/suru-valley-adventure-tour/4.webp",
+
+    "/images/treks/suru-valley-adventure-tour/5.webp",
+  ],
+
+  overview:
+    "The Suru Valley Adventure Tour combines dramatic Himalayan landscapes, the Nun–Kun massif, glacier views, and a progressive introduction to rock climbing techniques. Beginning with a scenic drive from Srinagar through Sonamarg, Zojila Pass, Drass, and Kargil, this 5-day journey takes you into the heart of Suru Valley in Ladakh.\n\nFour days are dedicated to rock climbing and training in the Parkachik Glacier region. You start with the fundamentals of equipment, knots, belaying, and basic climbing techniques, then move on to advanced rope management, anchor systems, multi-pitch climbing, rappelling, and route reading. The final climbing day is devoted to practical application, including lead climbing, pitch climbing, and technical footwork.\n\nAlong the way, the tour takes in Zoji La, the Drass Valley, the Kargil War Memorial, the Suru River, and sweeping views of the Nun–Kun massif. All climbing activities are conducted under qualified supervision, with routes and techniques adjusted according to participants' experience, weather, rock conditions, and safety assessment.",
+
+  includes: [
+    "Breakfast and Dinner.",
+    "All transfers (Airport to Airport) in a Sedan or SUV, depending on group size.",
+    "Driver lodging and expenses.",
+    "Road tolls, fuel, and cab charges.",
+    "Accommodation in Guest House, Homestay, or Hotel.",
+    "Sightseeing as per the itinerary.",
+  ],
+
+  excludes: [
+    "Travel insurance.",
+    "Lunch and snacks.",
+    "Park tickets.",
+    "Camera fees.",
+    "GST.",
+    "Inner Line Permits.",
+    "Any items not listed in the inclusions.",
+  ],
+
+  thingsToCarry: [
+    "Trekking shoes",
+    "Warm layers",
+    "Thermals",
+    "Rain jacket",
+    "Water bottle",
+    "Sunglasses",
+    "Sunscreen",
+    "Power bank",
+  ],
+
+  safetyProtocols: [
+    "Qualified climbing supervision",
+    "Routes adjusted for experience, weather and rock conditions",
+    "First aid assistance",
+  ],
+
+  itinerary: [
+    {
+      day: "Day 1",
+
+      title: "Srinagar to Suru Valley",
+
+      description:
+        "Drive from Srinagar to Suru Valley via Sonamarg, Zojila Pass, Drass, and Kargil. Highlights of the drive include Zoji La Pass, the Kargil War Memorial, and the first views of the Nun–Kun massif. Overnight stay in Suru Valley.",
+    },
+
+    {
+      day: "Day 2",
+
+      title: "Parkachik & Rock Climbing Introduction",
+
+      description:
+        "Basic training covering equipment, knots, belaying, and fundamental climbing techniques at the Parkachik Glacier location, followed by light practical climbing in the afternoon. Overnight stay in Suru Valley.",
+    },
+
+    {
+      day: "Day 3",
+
+      title: "Advanced Rock Climbing Techniques",
+
+      description:
+        "Learn advanced rope management, anchor systems, multi-pitch climbing, rappelling, and route reading through a mix of theory and hands-on practice. Overnight stay in Suru Valley.",
+    },
+
+    {
+      day: "Day 4",
+
+      title: "Advanced Climbing Practice",
+
+      description:
+        "A dedicated day of practical application of the skills learned so far, including lead climbing, pitch climbing, and technical footwork. Overnight stay in Suru Valley.",
+    },
+
+    {
+      day: "Day 5",
+
+      title: "Return to Srinagar",
+
+      description:
+        "Drive back to Srinagar via Kargil, Drass, and Zoji La Pass. The tour concludes on arrival in Srinagar.",
+    },
+  ],
 }
 ];
