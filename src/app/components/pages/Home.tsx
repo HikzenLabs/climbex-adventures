@@ -2,7 +2,7 @@
 import { CustomizeAdventureSection } from "../Home/CustomizeAdventureSection";
 import { HeroSection } from "../Home/HeroSection";
 import { FeaturedReviewsSection } from "../Home/FeaturedReviewsSection";
-import { FeaturedTreksSection } from "../Home/FeaturedTreksSection";
+import { FeaturedAdventuresSection } from "../Home/FeaturedAdventuresSection";
 import { CtaSection } from "../Home/CtaSection";
 import { FeaturedTravelsSection } from "../Home/FeaturedTravelsSection";
 
@@ -15,8 +15,8 @@ export function Home() {
       {/* HERO SECTION */}
       <HeroSection />
 
-      {/* FEATURED TREKS */}
-      <FeaturedTreksSection />
+      {/* FEATURED ADVENTURES */}
+      <FeaturedAdventuresSection />
 
       {/* FEATURED Travels */}
       <FeaturedTravelsSection />
