@@ -6,7 +6,10 @@ import { FeaturedAdventuresSection } from "../Home/FeaturedAdventuresSection";
 import { CtaSection } from "../Home/CtaSection";
 import { FeaturedTravelsSection } from "../Home/FeaturedTravelsSection";
 
+import { useSeo } from "../../utils/seo";
 export function Home() {
+  useSeo({});
+
 
 
   return (

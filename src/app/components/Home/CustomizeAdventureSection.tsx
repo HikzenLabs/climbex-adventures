@@ -12,6 +12,8 @@ export function CustomizeAdventureSection() {
     message: "",
   });
 
+  const [status, setStatus] = useState<null | { type: "success" | "error"; text: string }>(null);
+
   const [loading, setLoading] =
     useState(false);
 
@@ -36,6 +38,7 @@ export function CustomizeAdventureSection() {
     e.preventDefault();
 
     setLoading(true);
+    setStatus(null);
 
     try {
 
@@ -64,9 +67,7 @@ export function CustomizeAdventureSection() {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
 
-      alert(
-        "Adventure request sent successfully!"
-      );
+      setStatus({ type: "success", text: "Thanks! Your adventure request has been sent — we'll reply on WhatsApp soon." });
 
       setFormData({
         destination: "",
@@ -80,9 +81,7 @@ export function CustomizeAdventureSection() {
 
       console.error(error);
 
-      alert(
-        "Failed to send request."
-      );
+      setStatus({ type: "error", text: "Sorry, your request couldn't be sent. Please try again or message us on WhatsApp at +91 84930 09936." });
     }
 
     setLoading(false);
@@ -105,7 +104,7 @@ export function CustomizeAdventureSection() {
 
             {/* IMAGE */}
             <img
-              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1400"
+              src="/durinar_2_home.jpeg"
 
               alt="Adventure"
 
@@ -383,6 +382,18 @@ export function CustomizeAdventureSection() {
                 ? "Sending..."
                 : "Plan My Adventure →"}
             </button>
+              {status && (
+                <p
+                  role="status"
+                  className={`mt-4 text-center text-sm rounded-2xl px-4 py-3 border ${
+                    status.type === "success"
+                      ? "text-[#4ADE80] bg-[#4ADE80]/10 border-[#4ADE80]/30"
+                      : "text-red-300 bg-red-500/10 border-red-500/30"
+                  }`}
+                >
+                  {status.text}
+                </p>
+              )}
 
             {/* FOOTER */}
             <div className="flex flex-wrap justify-center gap-6 mt-8 text-white/50 text-sm">

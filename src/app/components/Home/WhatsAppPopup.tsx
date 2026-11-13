@@ -8,6 +8,9 @@ export function WhatsAppPopup() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
+      // Package detail pages have their own sticky "Book Now" bar on mobile,
+      // so don't cover it with the popup there.
+      if (window.location.pathname.startsWith("/skiing/")) return;
       setVisible(true);
     }, 5000);
 

@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 
 import {
   Instagram,
-  Linkedin,
   Youtube,
   MapPin,
   Award,
@@ -11,6 +10,8 @@ import {
 
 import { team } from "../../../data/about";
 
+import { useSeo } from "../../utils/seo";
+import { NotFound } from "./NotFound";
 export function TeamMemberDetails() {
 
   const { slug } = useParams();
@@ -19,12 +20,14 @@ export function TeamMemberDetails() {
     (m) => m.slug === slug
   );
 
+  useSeo(
+    member
+      ? { title: `${member.name} – ${member.role}`, description: member.bio, image: member.image }
+      : { title: "Page not found", noindex: true }
+  );
+
   if (!member) {
-    return (
-      <div className="min-h-screen bg-[#071018] flex items-center justify-center text-white text-3xl">
-        Team Member Not Found
-      </div>
-    );
+    return <NotFound message="We couldn't find that team member." />;
   }
 
   return (
@@ -121,6 +124,7 @@ export function TeamMemberDetails() {
             {/* SOCIALS */}
             <div className="flex flex-wrap gap-4 mt-10">
 
+              {member.social.instagram && (
               <a
                 href={member.social.instagram}
 
@@ -133,7 +137,9 @@ export function TeamMemberDetails() {
 
                 <Instagram className="w-5 h-5" />
               </a>
+              )}
 
+              {member.social.youtube && (
               <a
                 href={member.social.youtube}
 
@@ -146,6 +152,7 @@ export function TeamMemberDetails() {
 
                 <Youtube className="w-5 h-5" />
               </a>
+              )}
             </div>
           </div>
         </div>

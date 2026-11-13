@@ -1,8 +1,10 @@
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import { useState } from "react";
 import { destinations } from "../../../data/destinations";
 import { buildBookingLink } from "../../utils/whatsapp";
 
+import { useSeo, tripJsonLd } from "../../utils/seo";
+import { NotFound } from "./NotFound";
 export function TripDetails() {
 
   const { destination, trip } = useParams();
@@ -12,17 +14,29 @@ export function TripDetails() {
   );
 
   const currentTrip = currentDestination?.trips.find(
-    (t) => t.slug === trip
+    (t) => t.slug === trip || ("legacySlugs" in t && (t.legacySlugs as string[]).includes(trip ?? ""))
+  );
+
+  useSeo(
+    currentTrip
+      ? {
+          title: currentTrip.name,
+          description: `${currentTrip.name} — ${currentTrip.duration} in ${currentDestination?.name}. ${currentTrip.price} per person with Climbex Adventures.`,
+          image: currentTrip.images?.[0],
+          jsonLd: tripJsonLd(currentTrip.name, currentTrip.overview, currentTrip.price),
+        }
+      : { title: "Page not found", noindex: true }
   );
 
   const [currentImage, setCurrentImage] = useState(0);
 
   if (!currentTrip) {
-    return (
-      <div className="min-h-screen bg-[#071018] flex items-center justify-center text-white text-3xl">
-        Trip Not Found
-      </div>
-    );
+    return <NotFound message="We couldn't find that trip." />;
+  }
+
+  // Old links with "|" or "&" in the URL → redirect to the clean URL.
+  if (currentTrip.slug !== trip) {
+    return <Navigate to={`/trip/${destination}/${currentTrip.slug}`} replace />;
   }
 
   return (
@@ -223,17 +237,17 @@ export function TripDetails() {
             </div>
 
           </div>
+
+        </div>
+
           {"important_notes" in currentTrip && (
-            <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 mt-8">
+            <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 mt-8 border-yellow-400/20">
               <h2 className="text-2xl font-bold mb-6 text-yellow-400">
                 Important Notes
               </h2>
               <p>{currentTrip.important_notes}</p>
             </div>
           )}
-
-        </div>
-
       </section>
 
     </div>

@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import { treks } from "../../../data/treks"
 import { useState } from "react";
 
+import { useSeo } from "../../utils/seo";
 export function Treks() {
+  useSeo({ title: "Treks in Kashmir & Ladakh", description: "Guided treks in Kashmir and Ladakh with Climbex Adventures — alpine lakes, glaciers and high passes with certified mountain guides." });
+
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);  
   const [search, setSearch] = useState("");
   const [difficultyFilter, setDifficultyFilter] = useState("all");

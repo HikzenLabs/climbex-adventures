@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
-import { Menu, X, Mountain } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import { LogoMark } from "./Logo";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,12 +19,18 @@ export function Navbar() {
 
   const navLinks = [
     { name: "Home", path: "/" },
+    { name: "Skiing", path: "/skiing" },
+    { name: "Snowboarding", path: "/snowboarding" },
+    { name: "Ice Climbing", path: "/ice-climbing" },
     { name: "Travel", path: "/travel" },
-    { name: "Treks", path: "/treks" },
+    // { name: "Treks", path: "/treks" }, // hidden for winter
     { name: "Reviews", path: "/reviews" },
     { name: "About Us", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
+
+  const isActive = (path: string) =>
+    path === "/" ? location.pathname === "/" : location.pathname.startsWith(path);
 
   return (
     <motion.nav
@@ -37,31 +44,31 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center space-x-2 group">
+          <Link to="/" className="flex items-center gap-2.5 group" aria-label="Climbex Adventures – home">
             <motion.div
-              whileHover={{ scale: 1.1, rotate: 5 }}
+              whileHover={{ scale: 1.08 }}
               transition={{ type: "spring", stiffness: 400 }}
             >
-              <Mountain className="w-8 h-8 text-[#7DD3FC]" />
+              <LogoMark className="h-9 sm:h-10 w-auto text-white" />
             </motion.div>
             <span className="text-xl font-semibold text-white">
               Climbex <span className="text-[#7DD3FC]">Adventures</span>
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-6">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 className={`relative text-sm transition-colors duration-200 ${
-                  location.pathname === link.path
+                  isActive(link.path)
                     ? "text-[#7DD3FC]"
                     : "text-white/80 hover:text-white"
                 }`}
               >
                 {link.name}
-                {location.pathname === link.path && (
+                {isActive(link.path) && (
                   <motion.div
                     layoutId="activeNav"
                     className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#7DD3FC]"
@@ -83,7 +90,8 @@ export function Navbar() {
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-white p-2"
+            className="lg:hidden text-white p-2"
+            aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
               <X className="w-6 h-6" />
@@ -99,16 +107,16 @@ export function Navbar() {
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: "auto" }}
           exit={{ opacity: 0, height: 0 }}
-          className="md:hidden bg-[#0B1F33]/95 backdrop-blur-xl border-b border-white/10"
+          className="lg:hidden bg-[#0B1F33]/95 backdrop-blur-xl border-b border-white/10"
         >
-          <div className="px-4 py-6 space-y-4">
+          <div className="px-4 py-4 space-y-1">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`block py-2 text-base transition-colors ${
-                  location.pathname === link.path
+                  isActive(link.path)
                     ? "text-[#7DD3FC]"
                     : "text-white/80"
                 }`}
@@ -120,9 +128,9 @@ export function Navbar() {
               href="https://wa.me/918493009936"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full px-6 py-3 bg-gradient-to-r from-[#FB923C] to-[#F97316] text-white text-center rounded-full font-medium"
+              className="block w-full mt-3 px-6 py-3 bg-gradient-to-r from-[#FB923C] to-[#F97316] text-white text-center rounded-full font-medium"
             >
-              Book Adventure
+              ENQUIRE NOW
             </a>
           </div>
         </motion.div>

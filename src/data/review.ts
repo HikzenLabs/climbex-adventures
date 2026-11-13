@@ -1,122 +1,122 @@
-export const reviews = [
-    // {
-    //   id: 1,
-    //   name: "Priya Sharma",
-    //   trek: "Great Lakes Trek",
-    //   rating: 5,
-    //   date: "May 2026",
-    //   review:
-    //     "Absolutely breathtaking! The team was professional and the experience was beyond my expectations. Every lake was more beautiful than the last. The guides were knowledgeable and ensured our safety throughout. Highly recommend!",
-    //   image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200",
-    //   trekImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=600",
-    // },
-    {
-      id: 2,
-      name: "Rajesh Kumar",
-      trek: "Tarsar Marsar Trek",
-      rating: 5,
-      date: "April 2026",
-      review:
-        "An adventure of a lifetime. The landscapes were stunning and the guides were knowledgeable. The twin lakes are absolutely mesmerizing. Can't wait to come back!",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200",
-      trekImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600",
-    },
-    {
-      id: 3,
-      name: "Ananya Patel",
-      trek: "Kashmir Alpine Trek",
-      rating: 5,
-      date: "March 2026",
-      review:
-        "Perfect for beginners! Well organized and the scenery was incredible. The team took great care of us and made sure we were comfortable throughout the trek.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200",
-      trekImage: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=600",
-    },
-    {
-      id: 4,
-      name: "Arjun Mehta",
-      trek: "Gangabal Lake Trek",
-      rating: 5,
-      date: "May 2026",
-      review:
-        "The sacred Gangabal Lake at the foot of Mount Harmukh was a spiritual experience. The entire trek was well-organized with excellent support staff. The camping under the stars was magical!",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200",
-      trekImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=600",
-    },
-    {
-      id: 5,
-      name: "Sneha Reddy",
-      trek: "Great Lakes Trek",
-      rating: 5,
-      date: "April 2026",
-      review:
-        "Words cannot describe the beauty of this trek. Seven pristine alpine lakes, endless meadows, and snow-capped peaks. The team ensured we had everything we needed. This trek exceeded all expectations!",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200",
-      trekImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600",
-    },
-    {
-      id: 6,
-      name: "Vikram Singh",
-      trek: "Kolahoi Glacier Trek",
-      rating: 5,
-      date: "May 2026",
-      review:
-        "Challenging but absolutely worth it! Reaching Kashmir's highest glacier was a dream come true. The guides were experienced and handled everything professionally. Best trekking experience!",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200",
-      trekImage: "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=600",
-    },
-    {
-      id: 7,
-      name: "Meera Joshi",
-      trek: "Tarsar Marsar Trek",
-      rating: 5,
-      date: "April 2026",
-      review:
-        "The twin lakes were absolutely stunning! Camping by Tarsar Lake under the milky way was unforgettable. The food was great and the team was wonderful. Definitely doing another trek with them!",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=200",
-      trekImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=600",
-    },
-    {
-      id: 8,
-      name: "Karan Kapoor",
-      trek: "Kashmir Alpine Trek",
-      rating: 5,
-      date: "March 2026",
-      review:
-        "Great introduction to high-altitude trekking! The gradual ascent helped with acclimatization. Guides were patient and encouraging. Loved every moment!",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=200",
-      trekImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600",
-    },
-  ];
+// Real reviews of Climbex Adventures.
+// Source: Tripadvisor (5.0 ★, 39 reviews) and Justdial (4.9 ★, 26 ratings), checked Nov 2026.
+// Only verbatim text from the reviewers goes in `text`. Where we only have the review
+// title, the card shows the title and links to the full review on Tripadvisor.
 
+export const TRIPADVISOR_URL =
+  "https://www.tripadvisor.com/Attraction_Review-g297622-d19381304-Reviews-Climbex_Adventures-Kashmir_Jammu_and_Kashmir.html";
 
-  export const videoTestimonials = [
-    {
-  id: 1,
+export const TRIPADVISOR_WRITE_REVIEW_URL =
+  "https://www.tripadvisor.com/UserReviewEdit-g297622-d19381304-Climbex_Adventures-Kashmir_Jammu_and_Kashmir.html";
 
-  title: "Great Lakes Experience",
+export const JUSTDIAL_URL =
+  "https://www.justdial.com/Srinagar/Climbex-Adventures-Rainawari/9999PX194-X194-220523205219-Z3E8_BZDET";
 
-  name: "Ayaan Khan",
-
-  thumbnail: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800",
-
-  platform: "youtube",
-
-  videoUrl:
-    "https://youtu.be/J2IzHoqghK0?si=2b5TecOJ7-YNTTkM"
-},
- {
-  id: 1,
-
-  title: "Great Lakes Experience",
-
-  name: "Rasshid Khan",
-
-  thumbnail: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800",
-
-  platform: "Instagram",
-
-  videoUrl:
-    "https://www.instagram.com/reel/DXGMnZHkckV/?igsh=MTZsZDBwdjJoOTIydQ=="
+export interface RatingSource {
+  platform: "Tripadvisor" | "Justdial" | "Google";
+  rating: number;
+  count: number;
+  countLabel: string;
+  note?: string;
+  url: string;
 }
-  ];
+
+export const ratingSources: RatingSource[] = [
+  {
+    platform: "Tripadvisor",
+    rating: 5.0,
+    count: 39,
+    countLabel: "reviews",
+    note: "#66 of 524 outdoor activities in Kashmir",
+    url: TRIPADVISOR_URL,
+  },
+  {
+    platform: "Justdial",
+    rating: 4.9,
+    count: 26,
+    countLabel: "ratings",
+    url: JUSTDIAL_URL,
+  },
+  // Add Google here once Climbex has a Google Business Profile with reviews.
+];
+
+export interface Review {
+  id: number;
+  name: string;
+  from?: string;
+  rating: number;
+  title: string;
+  /** Verbatim review text (only if we have it word-for-word). */
+  text?: string;
+  trip: string;
+  date: string;
+  source: "Tripadvisor" | "Justdial" | "Google";
+  url: string;
+}
+
+export const reviews: Review[] = [
+  {
+    id: 1,
+    name: "Harshada W",
+    from: "Mumbai",
+    rating: 5,
+    title: "Best Trek Leader ever !!",
+    text: "We went with Leo to the Kashmir Great Lakes Trek In July 2021. It was my first Himalayan trek and was the best experience ever!!",
+    trip: "Kashmir Great Lakes Trek",
+    date: "July 2021",
+    source: "Tripadvisor",
+    url: TRIPADVISOR_URL,
+  },
+  {
+    id: 2,
+    name: "Charlie",
+    from: "Panjim",
+    rating: 5,
+    title: "Fantastic Tour",
+    trip: "Kashmir tour",
+    date: "March 2020",
+    source: "Tripadvisor",
+    url: TRIPADVISOR_URL,
+  },
+  {
+    id: 3,
+    name: "Mufeedh Mujeeb",
+    from: "Kerala",
+    rating: 5,
+    title: "Best time in Kashmir with Leo",
+    trip: "Kashmir trip",
+    date: "February 2021",
+    source: "Tripadvisor",
+    url: TRIPADVISOR_URL,
+  },
+  {
+    id: 4,
+    name: "Fahis",
+    rating: 5,
+    title: "Simply wonderful trip in Kashmir with Leo",
+    trip: "Kashmir trip",
+    date: "April 2021",
+    source: "Tripadvisor",
+    url: TRIPADVISOR_URL,
+  },
+  {
+    id: 5,
+    name: "Milesaway",
+    rating: 5,
+    title: "Best Days Ever",
+    trip: "Camping in the mountains",
+    date: "June 2021",
+    source: "Tripadvisor",
+    url: TRIPADVISOR_URL,
+  },
+  {
+    id: 6,
+    name: "Maria S",
+    rating: 5,
+    title: "Best travel to Kashmir India 🇮🇳",
+    trip: "Summer trip with friends",
+    date: "July 2019",
+    source: "Tripadvisor",
+    url: TRIPADVISOR_URL,
+  },
+];

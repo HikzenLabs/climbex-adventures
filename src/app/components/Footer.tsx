@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Mountain, Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { LogoMark } from "./Logo";
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
       <div
         className="absolute inset-0 opacity-5"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2000')",
+          backgroundImage: "url('/khemsar_home.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -17,7 +18,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Mountain className="w-8 h-8 text-[#7DD3FC]" />
+              <LogoMark className="h-9 w-auto text-white" />
               <span className="text-lg font-semibold text-white">
                 Climbex Adventures
               </span>
@@ -35,7 +36,7 @@ export function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/climbexadventures/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/60 hover:text-[#7DD3FC] transition-colors"
@@ -57,12 +58,21 @@ export function Footer() {
               <Link to="/" className="block text-white/60 hover:text-white text-sm transition-colors">
                 Home
               </Link>
+              <Link to="/skiing" className="block text-white/60 hover:text-white text-sm transition-colors">
+                Skiing in Gulmarg
+              </Link>
+              <Link to="/snowboarding" className="block text-white/60 hover:text-white text-sm transition-colors">
+                Snowboarding
+              </Link>
+              <Link to="/ice-climbing" className="block text-white/60 hover:text-white text-sm transition-colors">
+                Ice Climbing
+              </Link>
               <Link to="/travel" className="block text-white/60 hover:text-white text-sm transition-colors">
                 Travel Regions
               </Link>
-              <Link to="/treks" className="block text-white/60 hover:text-white text-sm transition-colors">
+              {/* <Link to="/treks" className="block text-white/60 hover:text-white text-sm transition-colors">
                 All Treks
-              </Link>
+              </Link> */}
               <Link to="/reviews" className="block text-white/60 hover:text-white text-sm transition-colors">
                 Reviews
               </Link>
@@ -78,12 +88,6 @@ export function Footer() {
               <Link to="/contact" className="block text-white/60 hover:text-white text-sm transition-colors">
                 Contact
               </Link>
-              <a href="#" className="block text-white/60 hover:text-white text-sm transition-colors">
-                Safety Standards
-              </a>
-              <a href="#" className="block text-white/60 hover:text-white text-sm transition-colors">
-                Terms & Conditions
-              </a>
             </div>
           </div>
 
@@ -94,9 +98,12 @@ export function Footer() {
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span>Srinagar, Kashmir, India</span>
               </div>
-              <div className="flex items-center space-x-2 text-white/60 text-sm">
-                <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>+91 84930 09936</span>
+              <div className="flex items-start space-x-2 text-white/60 text-sm">
+                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <div className="flex flex-col">
+                  <a href="tel:+918493009936" className="hover:text-white">+91 84930 09936</a>
+                  <a href="tel:+919797843568" className="hover:text-white">+91 97978 43568</a>
+                </div>
               </div>
               <div className="flex items-center space-x-2 text-white/60 text-sm">
                 <Mail className="w-4 h-4 flex-shrink-0" />
