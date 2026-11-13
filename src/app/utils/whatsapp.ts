@@ -29,3 +29,15 @@ export function buildBookingLink({
 
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
+
+/** WhatsApp link for a general enquiry about an activity (no fixed package). */
+export function buildEnquiryLink(topic: string) {
+  const message = [
+    "Hi Climbex Adventures,",
+    `I'm interested in *${topic}*.`,
+    `Link: ${window.location.href}`,
+    "Please share the available dates and details.",
+  ].join("\n");
+
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+}

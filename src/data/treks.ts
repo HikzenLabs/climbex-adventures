@@ -738,15 +738,15 @@ export const treks = [
   stayType: "Camping",
 
   images: [
-    "/images/treks/kalapari-lake-trek/1.png",
+    "/images/treks/kalapari-lake-trek/1.jpg",
 
-    "/images/treks/kalapari-lake-trek/2.png",
+    "/images/treks/kalapari-lake-trek/2.jpg",
 
-    "/images/treks/kalapari-lake-trek/3.png",
+    "/images/treks/kalapari-lake-trek/3.jpg",
 
-    "/images/treks/kalapari-lake-trek/4.png",
+    "/images/treks/kalapari-lake-trek/4.jpg",
 
-    "/images/treks/kalapari-lake-trek/5.PNG",
+    "/images/treks/kalapari-lake-trek/5.jpg",
   ],
 
   overview:

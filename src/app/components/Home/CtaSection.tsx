@@ -7,7 +7,7 @@ export function CtaSection (){
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "url('d:\workspace\HikzenLabs\images\kolahoi_home_pic.jpeg')",
+              "url('/gulmarg_home.jpeg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -25,7 +25,7 @@ export function CtaSection (){
           </h2>
 
           <p className="text-white/70 text-lg mt-6 max-w-2xl mx-auto">
-            Join hundreds of adventurers discovering Kashmir’s untouched beauty.
+            Join travellers who rate us 5.0 on Tripadvisor.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">

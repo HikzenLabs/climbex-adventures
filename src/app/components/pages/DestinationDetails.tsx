@@ -3,10 +3,27 @@ import { Link, useParams } from "react-router-dom";
 import { MapPin, Mountain, Calendar } from "lucide-react";
 import { destinations } from "../../../data/destinations";         
 
+import { useSeo } from "../../utils/seo";
+import { NotFound } from "./NotFound";
 export function DestinationDetails() {
   
   const { slug } = useParams();
-  const currentDestination = destinations.find((d) => d.slug === slug) || destinations[0];
+  const currentDestination = destinations.find((d) => d.slug === slug);
+
+  useSeo(
+    currentDestination
+      ? {
+          title: `${currentDestination.name} Tour Packages`,
+          description: `${currentDestination.name} trips by Climbex Adventures — ${currentDestination.description}`,
+          image: currentDestination.image,
+        }
+      : { title: "Page not found", noindex: true }
+  );
+
+  if (!currentDestination) {
+    return <NotFound message="We couldn't find that region." />;
+  }
+
   return (
     <div className="min-h-screen">
       <section className="relative h-[70vh] flex items-center justify-center overflow-hidden pt-20">
