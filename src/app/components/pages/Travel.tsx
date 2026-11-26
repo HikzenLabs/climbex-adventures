@@ -2,8 +2,15 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { Search, MapPin } from "lucide-react";
 import { useState } from "react";
+import { destinations as destinationData } from "../../../data/destinations";
 
+const tripCount = (slug: string) =>
+  destinationData.find((d) => d.slug === slug)?.trips.length ?? 0;
+
+import { useSeo } from "../../utils/seo";
 export function Travel() {
+  useSeo({ title: "Kashmir & Ladakh Tour Packages", description: "Kashmir Valley and Ladakh tour packages by Climbex Adventures — Srinagar, Gulmarg, Pahalgam, Sonamarg, Zanskar, Nubra and Pangong." });
+
   const [searchQuery, setSearchQuery] = useState("");
 
   const destinations = [
@@ -12,7 +19,7 @@ export function Travel() {
       name: "Kashmir Valley",
       slug: "kashmir-valley",
       description: "Golden meadow with pristine glaciers and alpine lakes",
-      tripsCount: 3,
+      tripsCount: tripCount("kashmir-valley"),
       image: "/images/travel/kashmir/classic-kashmir/kashmir4.jpeg",
       highlight: "Dal Lake, Shankaracharya Temple",
     },
@@ -21,7 +28,7 @@ export function Travel() {
       name: "Ladakh",
       slug: "ladakh",
       description: "High-altitude desert with dramatic landscapes",
-      tripsCount: 3,
+      tripsCount: tripCount("ladakh"),
       image: "/images/travel/ladakh/short-escape-to-zanskar/5.jpeg",
       highlight: "Pangong Lake, Nubra Valley",
     },
@@ -47,7 +54,7 @@ export function Travel() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2000')",
+            backgroundImage: "url('/images/travel/ladakh/short-escape-to-zanskar/5.jpeg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundAttachment: "fixed",

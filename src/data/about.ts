@@ -5,31 +5,43 @@ import {
   Users,
   Mountain,
   Compass,
+  Star,
 } from "lucide-react";
 
-export const stats = [
+// Only verifiable numbers here — each one links to its source where possible.
+export const stats: {
+  icon: typeof Users;
+  value: string;
+  label: string;
+  sub?: string;
+  url?: string;
+}[] = [
   {
-    icon: Users,
-    value: "500+",
-    label: "Happy Trekkers",
+    icon: Star,
+    value: "5.0",
+    label: "Rated on Tripadvisor",
+    sub: "39 reviews",
+    url: "https://www.tripadvisor.com/Attraction_Review-g297622-d19381304-Reviews-Climbex_Adventures-Kashmir_Jammu_and_Kashmir.html",
+  },
+
+  {
+    icon: Star,
+    value: "4.9",
+    label: "Rated on Justdial",
+    sub: "26 ratings",
+    url: "https://www.justdial.com/Srinagar/Climbex-Adventures-Rainawari/9999PX194-X194-220523205219-Z3E8_BZDET",
   },
 
   {
     icon: Mountain,
-    value: "50+",
-    label: "Treks Completed",
+    value: "Since 2015",
+    label: "Guiding in the Himalayas",
   },
 
   {
     icon: Award,
-    value: "4.9",
-    label: "Average Rating",
-  },
-
-  {
-    icon: Shield,
-    value: "100%",
-    label: "Safety Record",
+    value: "Certified",
+    label: "JIM&WS and IISM trained instructors",
   },
 ];
 
@@ -51,7 +63,6 @@ export const team = [
     ],
     social: {
       instagram: "https://instagram.com/leo_saqib",
-      linkedin: "https://linkedin.com",
       youtube: "https://youtube.com/@leosaqib7?si=UsuH6dFRz8YO12Yf",
     },
   },
@@ -72,31 +83,8 @@ export const team = [
     ],
     social: {
       instagram: "https://instagram.com/yasir__kh4n",
-      linkedin: "https://linkedin.com",
-      youtube: "https://youtube.com",
     },
   },
-  //   {
-  //   id: "3",
-  //   slug: "surya-singh",
-  //   name: "Surya Singh",
-  //   role: "Founder",
-  //   image: "/images/about/surya.jpeg",
-  //   bio: "Traveller and outdoor guide with 12 years of experience exploring the mountains of Jammu & Kashmir.",
-  //   experience: "12 Years",
-  //   location: "Jammu & Kashmir",
-  //   specialization: "Travel & High Altitude Treks",
-  //   achievements: [
-  //     "Led 60+ treks",
-  //     "12 years of outdoor experience",
-  //     "Experienced Himalayan traveler and a storyteller",
-  //   ],
-  //   social: {
-  //     instagram: "https://instagram.com",
-  //     linkedin: "https://linkedin.com",
-  //     youtube: "https://youtube.com/@suryasingh_j?si=ls_1R3NO5Xm9aRHUg",
-  //   },
-  // },
 ];
 
 export const values = [
@@ -140,7 +128,7 @@ export const values = [
 export const story = [
   {
     paragraphs: [
-    "Climbex Adventures was founded in 2015 by Leo Saqib, Yasir Khan, and Surya Singh, three passionate mountaineers united by their love for the Himalayas and the spirit of exploration. Our journey began long before Climbex. As young adventurers, we spent countless weekends hiking with local trekking and mountaineering clubs, exploring the mountains of Kashmir and learning from experienced climbers. What started as a hobby soon became a lifelong passion for the outdoors. Driven by our commitment to adventure and safety, we pursued professional certifications in Mountaineering and Basic Life Support (BLS), continuously honing our technical and rescue skills. Over the years, we progressed from participating in expeditions to leading them—organizing treks, high-altitude expeditions, mountaineering courses, and adventure experiences across the Himalayas. Our dedication has taken us to some of the region's most challenging peaks, where we've achieved significant summits, led successful expeditions, and built a reputation for professionalism, safety, and excellence. Along the way, we've had the privilege of welcoming adventurers from across India and around the world, helping them experience the beauty of the Himalayas through carefully planned and responsibly guided journeys. Today, Climbex Adventures is a trusted name in Himalayan travel, known for combining safety, local expertise, and unforgettable experiences. Every trip is led by trained professionals who understand the mountains, prioritize your well-being, and are committed to responsible and sustainable tourism. Whether you're taking your first trek or preparing for a technical expedition, our mission remains the same—to create adventures that are safe, authentic, and truly unforgettable."
+    "Climbex Adventures was founded in 2015 by Leo Saqib and Yasir Khan, two passionate mountaineers united by their love for the Himalayas and the spirit of exploration. Our journey began long before Climbex. As young adventurers, we spent countless weekends hiking with local trekking and mountaineering clubs, exploring the mountains of Kashmir and learning from experienced climbers. What started as a hobby soon became a lifelong passion for the outdoors. Driven by our commitment to adventure and safety, we pursued professional certifications in Mountaineering and Basic Life Support (BLS), continuously honing our technical and rescue skills. Over the years, we progressed from participating in expeditions to leading them—organizing treks, high-altitude expeditions, mountaineering courses, and adventure experiences across the Himalayas. Our dedication has taken us to some of the region's most challenging peaks, where we've achieved significant summits, led successful expeditions, and built a reputation for professionalism, safety, and excellence. Along the way, we've had the privilege of welcoming adventurers from across India and around the world, helping them experience the beauty of the Himalayas through carefully planned and responsibly guided journeys. Today, Climbex Adventures is a trusted name in Himalayan travel, known for combining safety, local expertise, and unforgettable experiences. Every trip is led by trained professionals who understand the mountains, prioritize your well-being, and are committed to responsible and sustainable tourism. Whether you're taking your first trek or preparing for a technical expedition, our mission remains the same—to create adventures that are safe, authentic, and truly unforgettable."
     ]
   },
   

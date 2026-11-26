@@ -14,7 +14,12 @@ import {
   User,
 } from "lucide-react";
 
+import { useSeo } from "../../utils/seo";
 export function Contact() {
+  useSeo({ title: "Contact Us", description: "Plan your Kashmir adventure with Climbex Adventures. Call or WhatsApp +91 84930 09936 or +91 97978 43568, or send us a message." });
+
+
+  const [status, setStatus] = useState<null | { type: "success" | "error"; text: string }>(null);
 
   const [loading, setLoading] =
     useState(false);
@@ -35,6 +40,7 @@ export function Contact() {
     e.preventDefault();
 
     setLoading(true);
+    setStatus(null);
 
     try {
 
@@ -58,9 +64,7 @@ export function Contact() {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
 
-      alert(
-        "Message sent successfully!"
-      );
+      setStatus({ type: "success", text: "Thanks! Your message has been sent — we'll get back to you shortly." });
 
       setFormData({
         name: "",
@@ -74,9 +78,7 @@ export function Contact() {
 
       console.error(error);
 
-      alert(
-        "Failed to send message."
-      );
+      setStatus({ type: "error", text: "Sorry, your message couldn't be sent. Please try again or message us on WhatsApp at +91 84930 09936." });
     }
 
     setLoading(false);
@@ -88,7 +90,17 @@ export function Contact() {
 
       title: "Phone",
 
-      content: "+91 9797843568",
+      content: "+91 84930 09936",
+
+      link: "tel:+918493009936",
+    },
+
+    {
+      icon: Phone,
+
+      title: "Phone (alternate)",
+
+      content: "+91 97978 43568",
 
       link: "tel:+919797843568",
     },
@@ -112,7 +124,7 @@ export function Contact() {
       content:
         "Srinagar, Kashmir, India",
 
-      link: "#",
+      link: "https://www.google.com/maps/search/?api=1&query=Climbex+Adventures+Srinagar",
     },
   ];
 
@@ -122,7 +134,7 @@ export function Contact() {
 
       name: "WhatsApp",
 
-      link: "https://wa.me/9797843568",
+      link: "https://wa.me/918493009936",
 
       color:
         "from-[#25D366] to-[#128C7E]",
@@ -146,7 +158,7 @@ export function Contact() {
       name: "Facebook",
 
       link:
-        "https://facebook.com/climbexadventures",
+        "https://www.facebook.com/climbexadventures/",
 
       color:
         "from-[#1877F2] to-[#0C63D4]",
@@ -341,7 +353,7 @@ export function Contact() {
 
                       required
 
-                      placeholder="+91 9797843568"
+                      placeholder="+91 XXXXX XXXXX"
 
                       className="w-full pl-12 px-5 py-4 bg-white/5 border border-white/10 rounded-2xl text-white placeholder-white/30 outline-none focus:border-[#7DD3FC] focus:ring-2 focus:ring-[#7DD3FC]/40"
                     />
@@ -427,6 +439,18 @@ export function Contact() {
                   ? "Sending..."
                   : "Send Message"}
               </button>
+              {status && (
+                <p
+                  role="status"
+                  className={`mt-4 text-center text-sm rounded-2xl px-4 py-3 border ${
+                    status.type === "success"
+                      ? "text-[#4ADE80] bg-[#4ADE80]/10 border-[#4ADE80]/30"
+                      : "text-red-300 bg-red-500/10 border-red-500/30"
+                  }`}
+                >
+                  {status.text}
+                </p>
+              )}
             </form>
           </motion.div>
 
@@ -465,6 +489,8 @@ export function Contact() {
                     key={info.title}
 
                     href={info.link}
+
+                    {...(info.link.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
 
                     className="flex gap-4 items-start bg-white/5 border border-white/10 rounded-3xl p-5 hover:bg-white/10 hover:border-[#7DD3FC]/40 transition-all duration-300"
                   >
@@ -563,7 +589,7 @@ export function Contact() {
               </p>
 
               <a
-                href="https://wa.me/9797843568"
+                href="https://wa.me/918493009936"
 
                 target="_blank"
 

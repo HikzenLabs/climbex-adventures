@@ -7,7 +7,10 @@ import {
   story,
 } from "../../../data/about";
 import { Link } from "react-router-dom";
+import { useSeo } from "../../utils/seo";
 export function About() {
+  useSeo({ title: "About Us", description: "Meet Climbex Adventures — a Srinagar-based team of mountaineers guiding treks, winter sports and trips across Kashmir and Ladakh since 2015." });
+
   
 
   
@@ -20,7 +23,7 @@ export function About() {
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2000')",
+              "url('/kolahoi_home_pic.jpeg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundAttachment: "fixed",
@@ -47,23 +50,35 @@ export function About() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#0B1F33]">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
-            {stats.map((stat, index) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="text-center"
-              >
-                <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:bg-white/10 hover:scale-105 transition-all duration-300">
-                  <stat.icon className="w-10 h-10 text-[#7DD3FC] mx-auto mb-4" />
-                  <div className="text-4xl font-bold text-white mb-2">{stat.value}</div>
-                  <div className="text-white/60 text-sm">{stat.label}</div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-20">
+            {stats.map((stat, index) => {
+              const card = (
+                <div className="h-full bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 md:p-8 hover:bg-white/10 hover:scale-105 transition-all duration-300">
+                  <stat.icon className="w-8 h-8 md:w-10 md:h-10 text-[#7DD3FC] mx-auto mb-3 md:mb-4" />
+                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">{stat.value}</div>
+                  <div className="text-white/70 text-xs sm:text-sm">{stat.label}</div>
+                  {stat.sub && <div className="text-white/40 text-xs mt-1">{stat.sub}</div>}
                 </div>
-              </motion.div>
-            ))}
+              );
+              return (
+                <motion.div
+                  key={stat.label}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  className="text-center"
+                >
+                  {stat.url ? (
+                    <a href={stat.url} target="_blank" rel="noopener noreferrer" className="block h-full">
+                      {card}
+                    </a>
+                  ) : (
+                    card
+                  )}
+                </motion.div>
+              );
+            })}
           </div>
 
           <motion.div
@@ -120,7 +135,7 @@ export function About() {
             <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Meet Our <span className="text-[#7DD3FC]">Team</span>
             </h2>
-            <div  className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center">
+            <div className="flex flex-wrap justify-center items-stretch gap-6 md:gap-8">
 
   {team.map((member, index) => (
 
@@ -129,7 +144,7 @@ export function About() {
 
       to={`/team/${member.slug}`}
 
-      className="w-full max-w-sm"
+      className="w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(50%-1rem)] lg:w-[340px] max-w-sm"
     >
 
       <motion.div
@@ -150,7 +165,7 @@ export function About() {
         <div className="h-full bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 hover:border-[#7DD3FC]/50 transition-all duration-300 hover:scale-105 flex flex-col">
 
           {/* IMAGE */}
-          <div className="relative h-[420px] overflow-hidden">
+          <div className="relative aspect-[4/5] overflow-hidden">
 
             <img
               src={member.image}

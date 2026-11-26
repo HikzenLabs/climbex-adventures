@@ -345,8 +345,117 @@ export const destinations = [
 
     trips: [
       {
+        id: "6",
+        slug: "Winter-Zanskar-Kashmir-Suru-Kargil-Circuit",
+
+        name: "Winter Zanskar | Kashmir – Suru Valley – Zanskar – Kargil Circuit",
+
+        duration: "6 Days & 5 Nights",
+
+        difficulty: "Challenging (extreme cold)",
+
+        price: "Price on request",
+
+        date: "December - January",
+
+        images: [
+          "/images/travel/ladakh/winter-zanskar/1.jpg",
+          "/images/travel/ladakh/winter-zanskar/2.jpg",
+          "/images/travel/ladakh/winter-zanskar/3.jpg",
+          "/images/travel/ladakh/winter-zanskar/4.jpg",
+          "/images/travel/ladakh/winter-zanskar/5.jpg",
+          "/images/travel/ladakh/winter-zanskar/6.jpg",
+        ],
+
+        overview:
+          "An unforgettable winter journey through the frozen landscapes of Kashmir, Suru Valley and Zanskar. In December and January the region turns into a silent white world: snow walls line the high passes, glacial lakes and rivers freeze over, waterfalls become pillars of blue ice, and the ancient monasteries of Zanskar glow with butter lamps against the cold.\n\nThis expedition takes you over snowbound mountain passes, past frozen lakes and glaciers, through remote villages that stay cut off for much of the winter, and along the frozen Zanskar river. Temperatures drop to -20°C and below, so it suits travellers who are ready for real Himalayan winter conditions. Our experienced local team, 4×4 vehicles and flexible planning keep the journey safe and comfortable.\n\nPlease note: winter roads in Kashmir, Kargil and Zanskar depend on snowfall and official road status. The itinerary may change, be shortened or be re-routed at short notice for your safety.",
+
+        highlights: [
+          "Snow-covered Sonamarg and the snow walls of Zoji La",
+          "Drass, one of the coldest inhabited places on Earth",
+          "Nun–Kun massif under deep winter snow",
+          "Frozen glacial lakes and the Drang-Drung Glacier",
+          "Phugtal Monastery and the frozen Sheela Waterfall",
+          "Winter life in Zanskar's monasteries and villages",
+          "The frozen Zanskar river along the NPD road",
+          "Lamayuru's snow-dusted Moonland",
+        ],
+
+        includes: [
+          "Breakfast and Dinner",
+          "All transfers from Srinagar and back in a 4×4 vehicle suitable for snow",
+          "Driver lodgings, food, and other expenses",
+          "Road tolls, fuel, and cab charges",
+          "Guest House/Homestays/Hotel",
+          "All sightseeing as per the itinerary",
+        ],
+
+        excludes: [
+          "Travel insurance",
+          "Lunch and snacks",
+          "Monastery, park and camera fees",
+          "GST",
+          "Inner Line Permits",
+          "Extra nights, meals or vehicle charges caused by road closures, snowfall or weather delays",
+          "Anything not mentioned in inclusions",
+        ],
+
+        important_notes: "Winter itinerary — subject to weather and road conditions. Snowfall, avalanche warnings and official closures of Zoji La, Pensi La and the NPD road can change, shorten or re-route the trip at short notice, and our team will always choose the safest option. Temperatures can fall below -20°C, so carry heavy down jackets, thermals, insulated boots, gloves and a warm hat. Prepaid SIM cards do not work in UT Jammu & Kashmir and Ladakh. Carry your original ID proof and 2 photocopies.",
+
+        itinerary: [
+          {
+            day: "Day 1",
+
+            title: "Srinagar to Kargil via Sonamarg & Zoji La",
+
+            description: "Begin your winter journey from Srinagar through the snow-covered Sindh Valley, where frozen streams and white pine forests line the road. Stop at Sonamarg, transformed into a winter wonderland under deep snow. Cross the spectacular Zoji La Pass between towering walls of snow cleared by the BRO, then enter the frozen Drass Valley — one of the coldest inhabited places on Earth. Visit the Kargil War Memorial at Drass to pay tribute to the brave soldiers, standing silent in the snow, and continue to Kargil.\n\nOvernight stay: Kargil.",
+          },
+
+          {
+            day: "Day 2",
+
+            title: "Kargil to Padum via Suru Valley & Pensi La",
+
+            description: "An incredible day through the winter landscapes of Suru Valley and Zanskar. Drive along the frozen Suru river and enjoy views of Mount Nun and Kun wrapped in snow from the viewpoint. Explore the snowbound Shafat Valley and continue to Rangdum, where the plains lie under a thick white blanket. Weather and road permitting, cross Pensi La to see the frozen Lang Tso and Tsat Tso glacial lakes and the silent, ice-bound Drang-Drung Glacier, then stop at Sani Lake before reaching Padum. If Pensi La is snowbound, our team will re-route the journey to Padum via the NPD road.\n\nOvernight stay: Padum, Zanskar.",
+          },
+
+          {
+            day: "Day 3",
+
+            title: "Winter in Zanskar: Phugtal, Frozen Sheela Waterfall & Monasteries",
+
+            description: "Discover Zanskar in its deepest winter. Make an early excursion towards Phugtal Monastery, built into a cliff above the frozen river; the walk to the monastery on snowy trails depends on road access, snow and available time. Visit Sheela Waterfall, frozen into a giant column of blue ice. See the sacred mountain Gonbo Rangjon standing white against the winter sky. Visit Bardan Monastery, known for its unique architecture, and Karsha Monastery, one of the largest monasteries in Zanskar, where monks keep their prayers going through the long winter. Return to Padum in the evening.\n\nOvernight stay: Padum.",
+          },
+
+          {
+            day: "Day 4",
+
+            title: "Padum to Kargil via NPD Road & Lamayuru",
+
+            description: "Take the spectacular NPD (Nimmu–Padum–Darcha) road, which follows the Zanskar river gorge — in winter you will see the river frozen into the famous 'Chadar' ice sheets used by the frozen-river trek. Visit the historic Zangla Palace with views over the snowy valley, and Chilling village, known for its traditional metal craftsmanship. Stop at the confluence of the Zanskar and Indus rivers, partly frozen in winter. Continue to Lamayuru to explore its ancient monastery and the extraordinary Moonland landscape dusted with snow. Cross Fotu La and Namika La, both winter-white, and arrive in Kargil by evening.\n\nOvernight stay: Kargil.",
+          },
+
+          {
+            day: "Day 5",
+
+            title: "Kargil to Srinagar",
+
+            description: "After breakfast, begin your return journey through the frozen Drass Valley. Cross Zoji La again between its snow walls, enjoy the winter landscapes of Sonamarg, and continue through the Sindh Valley to Srinagar.\n\nOvernight stay: Srinagar.",
+          },
+
+          {
+            day: "Day 6",
+
+            title: "Departure from Srinagar",
+
+            description: "After breakfast, transfer to Srinagar Airport for your onward journey, with unforgettable memories of Kashmir and Zanskar in winter.",
+          },
+        ],
+      },
+      {
         id: "1",
-        slug: "Indus-Valley-&-Demchok-Expedition",
+        slug: "Indus-Valley-Demchok-Expedition",
+        legacySlugs: ["Indus-Valley-&-Demchok-Expedition"],
 
         name: "7 Days Indus Valley & Demchok Expedition – Ladakh",
 
@@ -432,7 +541,8 @@ export const destinations = [
       },
       {
         id: "2",
-        slug: "A-Short-Escape-to-Zanskar-|-Srinagar-to-Manali",
+        slug: "Short-Escape-to-Zanskar-Srinagar-to-Manali",
+        legacySlugs: ["A-Short-Escape-to-Zanskar-|-Srinagar-to-Manali"],
 
         name: "A Short Escape to Zanskar | Srinagar to Manali",
 
@@ -512,192 +622,311 @@ export const destinations = [
           },
         ],
       },
+//      {
+//        id: "3",
+//        slug: "Leh-Ladakh-7-Days -Itinerary",
+
+//        name: "Leh Ladakh 7 Days Itinerary",
+
+//        duration: "7 Days & 6 Nights",
+
+//        difficulty: "Moderate",
+
+//        price: "₹30,000-not set",
+
+//        date: "June - September",
+
+//        images: [
+//          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200",
+
+//          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200",
+
+//          "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=1200",
+//        ],
+
+//        overview:
+//          "Experience the best of Ladakh on this carefully planned 7-day adventure, designed to showcase the region's most iconic landscapes, high-altitude lakes, ancient monasteries, and vibrant local culture. Explore the breathtaking beauty of Leh, Nubra Valley, Pangong Lake, Tso Moriri, and the geothermal wonders of Puga Valley while travelling through some of the world's highest mountain passes.\n\nWhether you're seeking adventure, photography, cultural experiences, or simply the serenity of the Himalayas, this itinerary offers the perfect balance of sightseeing and leisure. From scenic drives and peaceful lakes to traditional Ladakhi villages and unique local cuisine, every day brings a new experience.\n\nWith comfortable accommodations, experienced local support, and seamless travel arrangements by Climbex Adventures, this journey promises an unforgettable exploration of the Land of High Passes.",
+
+//        includes: [
+//          "Breakfast and Dinner",
+//          "All transfers. Airport to Airport.",
+//          "Driver lodgings, food, and other expenses.",
+//          "Road Tolls, fuel, and cab charges.",
+//          "Guest House/Homestays/Hotel",
+//        ],
+
+//        excludes: ["Travel insurance.", "Lunch and snacks.", "Park tickets and other expenses.","Camera fees.","GST.","Anything not mentioned in inclusion","Inner Line Permits"],
+//        important_notes: "Please note that prepaid sim cards do not work in UT Jammu & Kashmir. Don’t forget your ID proof in original and 2 photo copies.",
+
+//        itinerary: [
+//          {
+//            day: "Day 1",
+
+//            title: "Arrival in Leh (3,500 m)",
+
+//            description: "Kushok Bakula Rimpochee International Airport is the only airport in Ladakh, offering both domestic as well as international flights.As land at the Leh Airport, book a taxi or cab to reach the main city centre. It is only 2.5 kilometres. Utilise the first day for getting off the jetlag and acclimatize properly. In the city, check into a hotel or guesthouse. If meals are included with your stay, have you lunch and then rest for a few hours. Once you have relaxed completely, take a walk to the nearby attractions. Visit the Shanti Stupa or Leh Palace for sightseeing. While the stupa is at a distance of 5 kilometres, the city palace is only 2 kilometres away. You can easily reach these places on foot in less than an hour. Dine at a local restaurant and enjoy Ladakhi cuisine for your dinner. Come back to your hotel and call it a day!. Night stay in Leh. ",
+//          },
+
+//          {
+//            day: "Day 2",
+
+//            title: "Leh – Sangam Excursion – Leh",
+
+//            description: "Second day of the trip will include a thorough exploration of the entire Leh city. Gear up for a whole lot of walking and even more sightseeing. Once you are all done with breakfast and getting ready, book a taxi or cab for a complete day.Visit the Hall of Fame where all you can witness are the stories of grandeur of Indian martyrs. On your way, stop at the Magnetic Hill which is believed to defy the scientific phenomenon of Gravity. Next stop would be Gurudwara Pathar Sahib, one of the highest Gurudwara in India. Here, soak in the serenity and enjoy the tasty Langer. Moving ahead, it’s time to reach various Buddhist Monasteries of Leh and get an insight into the rich history and heritage of the city. Include Spituk, Hemis, Thiksey Gompa in your 7 days itinerary. They are some of the oldest and largest monasteries of Ladakh. In the evening, enjoy dinner at a restaurant. Try Thukpa, Skyu, and other items for your meal. Night Stay in Leh. ",
+//          },
+
+//          {
+//            day: "Day 3",
+
+//            title: "Nubra Valley sightseeing",
+
+//            description: "On the third day of the trip, it’s time to move ahead from Leh and cover various other places of Ladakh. Start with a road trip from Leh to Nubra Valley. Start early in the morning to have enough time for daytime sightseeing and activities. The lush valley is at a distance of 150 kilometres from Leh city and takes about 3-4 hours to cover the distance. The route goes through the world’s highest motorable pass, Khardung La Pass. As you visit the alpine pass, halt here for sometime and witness the scenic views, standing literally on the top of the world. Enjoy maggie and other snacks at Khardung-cafe. Once you have reached the Nubra Valley, experience camel riding starting from Hunder,  giving you a tour of the snow deserts and surrounding. Through the ride, you get an opportunity to visit the Diskit Monastery, home to the 32 feet high statue of Maitreya Buddha. Here, you can choose to stay in a homestay or check in a hotel for more comfortable accommodation. Night stay in Nubra. ",
+//          },
+//          {
+//            day: "Day 3",
+
+//            title: "Leh – Chumathang – Nyoma",
+
+//            description: "Distance: Approx. 180 km. Travel Time: 5–6 hours. Depart Leh after breakfast. Follow the scenic Indus River Valley. Pass through Upshi and Mahe Bridge. Visit the natural hot springs of Chumathang. Enjoy views of traditional Ladakhi villages and fertile riverbanks. Continue drive along the Indus River towards Nyoma. Explore the peaceful surroundings of Nyoma village. Overnight stay in Nyoma.",
+//          },
+//          {
+//            day: "Day 4",
+
+//            title: "Turtuk Sightseeing",
+
+//            description: "Turtuk, India’s last village, is at a distance of only 85 kilometres from Nubra Valley. The drive will take a maximum of 3 hours. Located near the India- Pakistan Border, the village radiates natural beauty. As you visit here, visit the Turtuk royal Palace, Turtuk Monastery and Mosque. While these places are recognised for sightseeing, explore the walnut orchards found in the village for a rejuvenating time. Interact with the villagers who will tell you the stories of the times when the village was a part of Pakistan. It was after 1971 that it came under the Indian subcontinent. They will convey the stories of the other side of the border over a cup of butter tea. Since hotels are not found in the village, you can come back to Hunder in Nubra Valley for overnight stay. Night Stay in Nubra. ",
+//          },
+//          {
+//            day: "Day 5",
+
+//            title: "Pangong valley sightseeing",
+
+//            description: "The drive from Nubra Valley to Pangong Lake is one of the most exciting road trips in Ladakh. There are majorly two routes. While one goes through the Wari La Pass, the other one is via Shyok village. You can, depending on the road conditions. With either of the routes, you have to cover a distance of approximately 260 kilometres, taking a total of 4-5 hours. As you have reached the Pangong Lake, you will surely witness the most gorgeous sight of Ladakh. Throughout the day, notice how the colour changes as day passes. Only 40 percent of the lake is part of the Indian subcontinent and the rest of it(60 percent) is in Tibet. Here, take a light stroll or go for a nature walk along the pristine lake. The superhit Bollywood movie, 3 idiots, was shot here. Visit the shooting point and reminisce about those bollywood moments. Few cafes are found in proximity. Enjoy snacks and refreshments there. At night, set up a camp near the lake and lie under the star-studded sky. You can even light a bonfire and have a memorable experience. Stay Night at Pangong.",
+//          },
+//          {
+//            day: "Day 6",
+
+//            title: "Tso Moriri Sightseeing",
+
+//            description: "Moving ahead, it’s time to visit yet another immensely beautiful and remote lake of Ladakh, Tso Moriri. From Pangong, it is about 330 kilometres away. The travel time is about 9-10 hours. It is suggested to start early in the morning by at least 7AM. The route goes through offbeat villages like Chushul and Mahe Bridge. From the bridge, the sunrise views are unparalleled. Tso Moriri is the highest lake in Ladakh to reside completely in the Indian subcontinent. It is located at an altitude of 4522 metres. The lake is a favourite spot among Bird-watchers. Home to both local as well migratory birds, you have a guided tour here. Near the lake, a 300 year old Korzok Monastery is present, overlooking the region. Kurzok village is located near the monastery where you can opt for a homestay to spend the night. Night Stay at Tso-Moriri. ",
+//          },
+//          {
+//            day: "Day 7",
+
+//            title: "Drive back to Leh",
+
+//            description: "By now, you have explored most of Ladakh, covering major local attractions. In the morning, start your drive back to Leh from Tso Moriri. The total distance to be covered on this drive is about 220 kilometres. The scenic drive is filled with various enroute sightseeing spots. The most popular place to stop by is Changthang Hot springs. Here, explore the steaming hot spring where tourists even chose to bathe. On this road trip, you witness a magical contrast of lush landscape and rugged terrains. By evening, you will be back in Leh. Do include a shopping spree in the Ladakh 7 days itinerary. Spend the evening, exploring the Leh local Market. Shop souvenirs and gifts to take back home for your friends and families. Ladakhi architecture, murals, Buddhist artefacts are available to purchase at various shops. Call it a day by relishing a lip-smacking dinner at a local restaurant or eatery. Night stay in Leh.",
+//          },
+//          {
+//            day: "Day 8",
+
+//            title: "Departure",
+
+//            description: "On the last day of the Ladakh trip, it’s time to say goodbye to the “Land of High Passes”. Reach the Kushok Bakula Rimpochee International Airport also known as Leh Airport at least two hours before your flight. Enjoy aerial views of the mountains as you bid goodbye to the magical land of Ladakh. ",
+//          },
+//        ],
+//      },
       {
-        id: "3",
-        slug: "Leh-Ladakh-7-Days -Itinerary",
+        id: "4",
+        slug: "Autumn-Ladakh",
 
-        name: "Leh Ladakh 7 Days Itinerary",
+        name: "Autumn Ladakh | Sham Valley, Nubra, Turtuk & Pangong",
 
-        duration: "7 Days & 6 Nights",
+        duration: "6 Days & 5 Nights",
 
         difficulty: "Moderate",
 
-        price: "₹30,000-not set",
+        price: "₹29,500",
 
-        date: "June - September",
+        date: "September - October",
 
         images: [
-          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=1200",
+          "/images/travel/ladakh/autumn-ladakh/1.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/2.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/3.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/4.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/5.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/6.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/7.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/8.jpeg",
         ],
 
         overview:
-          "Experience the best of Ladakh on this carefully planned 7-day adventure, designed to showcase the region's most iconic landscapes, high-altitude lakes, ancient monasteries, and vibrant local culture. Explore the breathtaking beauty of Leh, Nubra Valley, Pangong Lake, Tso Moriri, and the geothermal wonders of Puga Valley while travelling through some of the world's highest mountain passes.\n\nWhether you're seeking adventure, photography, cultural experiences, or simply the serenity of the Himalayas, this itinerary offers the perfect balance of sightseeing and leisure. From scenic drives and peaceful lakes to traditional Ladakhi villages and unique local cuisine, every day brings a new experience.\n\nWith comfortable accommodations, experienced local support, and seamless travel arrangements by Climbex Adventures, this journey promises an unforgettable exploration of the Land of High Passes.",
+          "A specially designed autumn journey through Ladakh, combining golden landscapes, high-altitude monasteries, dramatic mountain passes, and the unique Balti culture of the Nubra region.\n\nThis 6-day itinerary begins in Leh with time to acclimatize, then explores the Sham Valley, where the golden Indus Valley stands in striking contrast to the stark high-altitude mountains. From there, the route crosses Khardung La into Nubra Valley, with its poplar-lined villages, Diskit Monastery, the Hunder sand dunes, and double-humped Bactrian camels. The journey continues to Turtuk and Thang, Balti villages with stone houses and apricot orchards close to the Line of Control, before the trip returns through the Shyok Valley to the blue waters of Pangong Lake and back to Leh over Chang La.",
+
+        highlights: [
+          "Golden poplar forests of Leh and Nubra",
+          "Autumn colours of Sham Valley",
+          "Golden landscapes around Diskit & Hunder",
+          "Balti culture and autumn orchards of Turtuk",
+          "Remote Thang village",
+          "Dramatic Shyok Valley",
+          "Blue waters of Pangong Lake",
+          "High-altitude passes: Khardung La & Chang La",
+          "Ladakh's ancient monasteries and traditional villages",
+        ],
 
         includes: [
           "Breakfast and Dinner",
-          "All transfers. Airport to Airport.",
+          "All transfers. Airport to Airport, in a sedan or SUV.",
           "Driver lodgings, food, and other expenses.",
           "Road Tolls, fuel, and cab charges.",
           "Guest House/Homestays/Hotel",
         ],
 
-        excludes: ["Travel insurance.", "Lunch and snacks.", "Park tickets and other expenses.","Camera fees.","GST.","Anything not mentioned in inclusion","Inner Line Permits"],
-        important_notes: "Please note that prepaid sim cards do not work in UT Jammu & Kashmir. Don’t forget your ID proof in original and 2 photo copies.",
+        excludes: ["Travel insurance.", "Lunch and snacks.", "Park tickets and other expenses.", "Camera fees.", "GST.", "Anything not mentioned in inclusion", "Inner Line Permits"],
+        important_notes: "Please note that prepaid sim cards do not work in UT Jammu & Kashmir and Ladakh. Don’t forget your ID proof in original and 2 photo copies.",
 
         itinerary: [
           {
             day: "Day 1",
 
-            title: "Arrival in Leh (3,500 m)",
+            title: "Arrival in Leh | Acclimatization",
 
-            description: "Kushok Bakula Rimpochee International Airport is the only airport in Ladakh, offering both domestic as well as international flights.As land at the Leh Airport, book a taxi or cab to reach the main city centre. It is only 2.5 kilometres. Utilise the first day for getting off the jetlag and acclimatize properly. In the city, check into a hotel or guesthouse. If meals are included with your stay, have you lunch and then rest for a few hours. Once you have relaxed completely, take a walk to the nearby attractions. Visit the Shanti Stupa or Leh Palace for sightseeing. While the stupa is at a distance of 5 kilometres, the city palace is only 2 kilometres away. You can easily reach these places on foot in less than an hour. Dine at a local restaurant and enjoy Ladakhi cuisine for your dinner. Come back to your hotel and call it a day!. Night stay in Leh. ",
+            description: "Arrive in Leh and transfer to your hotel to rest and acclimatize to the high altitude. In the evening, visit Shanti Stupa for panoramic views of the surrounding mountains, then explore Leh Mall Road, the old town, cafés, and local markets.",
           },
 
           {
             day: "Day 2",
 
-            title: "Leh – Sangam Excursion – Leh",
+            title: "Sham Valley Exploration",
 
-            description: "Second day of the trip will include a thorough exploration of the entire Leh city. Gear up for a whole lot of walking and even more sightseeing. Once you are all done with breakfast and getting ready, book a taxi or cab for a complete day.Visit the Hall of Fame where all you can witness are the stories of grandeur of Indian martyrs. On your way, stop at the Magnetic Hill which is believed to defy the scientific phenomenon of Gravity. Next stop would be Gurudwara Pathar Sahib, one of the highest Gurudwara in India. Here, soak in the serenity and enjoy the tasty Langer. Moving ahead, it’s time to reach various Buddhist Monasteries of Leh and get an insight into the rich history and heritage of the city. Include Spituk, Hemis, Thiksey Gompa in your 7 days itinerary. They are some of the oldest and largest monasteries of Ladakh. In the evening, enjoy dinner at a restaurant. Try Thukpa, Skyu, and other items for your meal. Night Stay in Leh. ",
+            description: "After breakfast, explore the Sham Valley. Stops include the Hall of Fame, Magnetic Hill, Gurudwara Pathar Sahib, the Indus–Zanskar Sangam, Likir Monastery, and Alchi Monastery. Along the way, notice the autumn contrast between the golden Indus Valley and the stark high-altitude mountains.",
           },
 
           {
             day: "Day 3",
 
-            title: "Nubra Valley sightseeing",
+            title: "Leh to Nubra Valley | Autumn in the Valley",
 
-            description: "On the third day of the trip, it’s time to move ahead from Leh and cover various other places of Ladakh. Start with a road trip from Leh to Nubra Valley. Start early in the morning to have enough time for daytime sightseeing and activities. The lush valley is at a distance of 150 kilometres from Leh city and takes about 3-4 hours to cover the distance. The route goes through the world’s highest motorable pass, Khardung La Pass. As you visit the alpine pass, halt here for sometime and witness the scenic views, standing literally on the top of the world. Enjoy maggie and other snacks at Khardung-cafe. Once you have reached the Nubra Valley, experience camel riding starting from Hunder,  giving you a tour of the snow deserts and surrounding. Through the ride, you get an opportunity to visit the Diskit Monastery, home to the 32 feet high statue of Maitreya Buddha. Here, you can choose to stay in a homestay or check in a hotel for more comfortable accommodation. Night stay in Nubra. ",
+            description: "Drive from Leh to Nubra Valley over Khardung La, then descend into valleys of golden poplar trees and colourful villages. Visit Diskit Monastery and Diskit village, walk on the Hunder sand dunes, and meet the double-humped Bactrian camels.",
           },
-          {
-            day: "Day 3",
 
-            title: "Leh – Chumathang – Nyoma",
-
-            description: "Distance: Approx. 180 km. Travel Time: 5–6 hours. Depart Leh after breakfast. Follow the scenic Indus River Valley. Pass through Upshi and Mahe Bridge. Visit the natural hot springs of Chumathang. Enjoy views of traditional Ladakhi villages and fertile riverbanks. Continue drive along the Indus River towards Nyoma. Explore the peaceful surroundings of Nyoma village. Overnight stay in Nyoma.",
-          },
           {
             day: "Day 4",
 
-            title: "Turtuk Sightseeing",
+            title: "Turtuk & Thang | Balti Culture & Golden Autumn",
 
-            description: "Turtuk, India’s last village, is at a distance of only 85 kilometres from Nubra Valley. The drive will take a maximum of 3 hours. Located near the India- Pakistan Border, the village radiates natural beauty. As you visit here, visit the Turtuk royal Palace, Turtuk Monastery and Mosque. While these places are recognised for sightseeing, explore the walnut orchards found in the village for a rejuvenating time. Interact with the villagers who will tell you the stories of the times when the village was a part of Pakistan. It was after 1971 that it came under the Indian subcontinent. They will convey the stories of the other side of the border over a cup of butter tea. Since hotels are not found in the village, you can come back to Hunder in Nubra Valley for overnight stay. Night Stay in Nubra. ",
+            description: "Travel to Turtuk, a Balti village of traditional stone houses, narrow lanes, and apricot orchards, and experience its distinctive local culture. Continue to Thang, one of the northernmost inhabited villages of India, located close to the Line of Control. The day showcases traditional architecture, autumn-coloured trees, and views towards the Karakoram.",
           },
+
           {
             day: "Day 5",
 
-            title: "Pangong valley sightseeing",
+            title: "Nubra to Pangong & Return to Leh",
 
-            description: "The drive from Nubra Valley to Pangong Lake is one of the most exciting road trips in Ladakh. There are majorly two routes. While one goes through the Wari La Pass, the other one is via Shyok village. You can, depending on the road conditions. With either of the routes, you have to cover a distance of approximately 260 kilometres, taking a total of 4-5 hours. As you have reached the Pangong Lake, you will surely witness the most gorgeous sight of Ladakh. Throughout the day, notice how the colour changes as day passes. Only 40 percent of the lake is part of the Indian subcontinent and the rest of it(60 percent) is in Tibet. Here, take a light stroll or go for a nature walk along the pristine lake. The superhit Bollywood movie, 3 idiots, was shot here. Visit the shooting point and reminisce about those bollywood moments. Few cafes are found in proximity. Enjoy snacks and refreshments there. At night, set up a camp near the lake and lie under the star-studded sky. You can even light a bonfire and have a memorable experience. Stay Night at Pangong.",
+            description: "Leave early for Pangong Lake through the Shyok Valley. Spend time at the lake, famous for its blue waters surrounded by barren mountains, then return via Chang La Pass. Visit Thiksey Monastery in the evening light before reaching Leh.",
           },
+
           {
             day: "Day 6",
 
-            title: "Tso Moriri Sightseeing",
-
-            description: "Moving ahead, it’s time to visit yet another immensely beautiful and remote lake of Ladakh, Tso Moriri. From Pangong, it is about 330 kilometres away. The travel time is about 9-10 hours. It is suggested to start early in the morning by at least 7AM. The route goes through offbeat villages like Chushul and Mahe Bridge. From the bridge, the sunrise views are unparalleled. Tso Moriri is the highest lake in Ladakh to reside completely in the Indian subcontinent. It is located at an altitude of 4522 metres. The lake is a favourite spot among Bird-watchers. Home to both local as well migratory birds, you have a guided tour here. Near the lake, a 300 year old Korzok Monastery is present, overlooking the region. Kurzok village is located near the monastery where you can opt for a homestay to spend the night. Night Stay at Tso-Moriri. ",
-          },
-          {
-            day: "Day 7",
-
-            title: "Drive back to Leh",
-
-            description: "By now, you have explored most of Ladakh, covering major local attractions. In the morning, start your drive back to Leh from Tso Moriri. The total distance to be covered on this drive is about 220 kilometres. The scenic drive is filled with various enroute sightseeing spots. The most popular place to stop by is Changthang Hot springs. Here, explore the steaming hot spring where tourists even chose to bathe. On this road trip, you witness a magical contrast of lush landscape and rugged terrains. By evening, you will be back in Leh. Do include a shopping spree in the Ladakh 7 days itinerary. Spend the evening, exploring the Leh local Market. Shop souvenirs and gifts to take back home for your friends and families. Ladakhi architecture, murals, Buddhist artefacts are available to purchase at various shops. Call it a day by relishing a lip-smacking dinner at a local restaurant or eatery. Night stay in Leh.",
-          },
-          {
-            day: "Day 8",
-
             title: "Departure",
 
-            description: "On the last day of the Ladakh trip, it’s time to say goodbye to the “Land of High Passes”. Reach the Kushok Bakula Rimpochee International Airport also known as Leh Airport at least two hours before your flight. Enjoy aerial views of the mountains as you bid goodbye to the magical land of Ladakh. ",
+            description: "After breakfast, transfer to Leh Airport for your onward journey.",
           },
         ],
       },
-    ],
-  },
-
-  {
-    slug: "indonesia",
-
-    name: "Indonesia",
-
-    description: "Tropical paradise with volcanic mountains and beaches.",
-
-    image:
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=2000",
-
-    bestSeason: "April to October",
-
-    altitude: "Sea Level - 3,700m",
-
-    difficulty: "Easy to Moderate",
-
-    trips: [
       {
-        id: "1",
-        slug: "indonesia-tour",
+        id: "5",
+        slug: "Kashmir-Ladakh-Autumn-Bliss",
 
-        name: "7 Days & 6 Nights in Kashmir Valley",
+        name: "Kashmir–Ladakh Autumn Bliss | Dachigam, Suru Valley & Aryan Valley",
 
-        duration: "7 Days",
+        duration: "6 Days & 5 Nights",
 
         difficulty: "Moderate",
 
-        price: "₹12,999",
+        price: "₹29,500",
 
-        date: "June 15, 2026",
+        date: "September - October",
 
         images: [
-          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200",
-
-          "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=1200",
+          "/images/travel/ladakh/autumn-ladakh/2.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/1.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/3.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/4.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/5.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/6.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/7.jpeg",
+          "/images/travel/ladakh/autumn-ladakh/8.jpeg",
         ],
 
         overview:
-          "Experience the beauty of Kashmir Valley with lakes, gardens, mountains, and rich culture.",
+          "A scenic autumn journey through Kashmir and Ladakh, celebrating golden forests, colourful villages, high mountain passes, ancient monasteries, and the raw beauty of both regions in the autumn season.\n\nThe trip begins in Srinagar with an afternoon in Dachigam National Park, one of the best places to experience Kashmir's golden autumn. It then follows the mountain road through Sonamarg, Zoji La, and Drass to Kargil, spends a full day in the Suru Valley beneath the Nun–Kun massif, and continues along the Indus to the traditional Aryan villages of the Batalik sector. The final stretch visits Likir and Alchi monasteries in the Sham Valley before the return drive to Srinagar across Fotu La and Namika La, past Lamayuru and the Moonland formations. It is a drive-and-explore itinerary with no technical climbing.",
 
-        includes: [
-          "Hotel Stay",
-          "Breakfast & Dinner",
-          "Airport Transfers",
-          "Sightseeing",
-          "Guide Support",
+        highlights: [
+          "Dachigam National Park in autumn",
+          "Sonamarg, Zoji La and Drass",
+          "Kargil War Memorial and Hunderman border village",
+          "Suru Valley and the Nun–Kun massif",
+          "Aryan Valley and the Batalik sector",
+          "Likir and Alchi monasteries",
+          "Lamayuru, Fotu La and Namika La",
         ],
 
-        excludes: ["Flight Tickets", "Personal Expenses", "Travel Insurance"],
-        important_notes: "",
+        includes: [
+          "Breakfast and Dinner",
+          "All transfers. Airport to Airport, in a sedan or SUV. Up to 3 guests - a sedan cab.",
+          "Driver lodgings, food, and other expenses.",
+          "Road Tolls, fuel, and cab charges.",
+          "Guest House/Homestays/Hotel",
+        ],
+
+        excludes: ["Travel insurance.", "Lunch and snacks.", "Park tickets and other expenses.", "Camera fees.", "GST.", "Anything not mentioned in inclusion", "Inner Line Permits"],
+        important_notes: "Please note that prepaid sim cards do not work in UT Jammu & Kashmir and Ladakh. Don’t forget your ID proof in original and 2 photo copies.",
 
         itinerary: [
           {
             day: "Day 1",
 
-            title: "Arrival in Srinagar",
+            title: "Arrival in Srinagar | Autumn in Dachigam",
 
-            description: "Arrival at Srinagar airport and transfer to hotel.",
+            description: "Arrive in Srinagar and settle into your accommodation. In the afternoon, visit Dachigam National Park, one of the best places to experience Kashmir's golden autumn landscapes. Watch the chinar and mountain forests change colour before returning to Srinagar for the night.",
           },
 
           {
             day: "Day 2",
 
-            title: "Local Sightseeing",
+            title: "Srinagar to Kargil | Through the Autumn Mountains",
 
-            description: "Visit Dal Lake, Mughal Gardens, and Old Srinagar.",
+            description: "A long scenic drive through the mountains. Stop at Sonamarg for its autumn views, cross Zoji La Pass, explore Drass Valley, and pay respects at the Kargil War Memorial. Visit Hunderman Border Village and traditional mountain settlements along the way. The route offers beautiful contrasts of golden forests, rugged mountains, and high-altitude valleys. Overnight stay in Kargil.",
           },
 
           {
             day: "Day 3",
 
-            title: "Gulmarg Excursion",
+            title: "Suru Valley Autumn Exploration",
 
-            description: "Day trip to Gulmarg with gondola experience.",
+            description: "Spend the day exploring the Suru Valley, surrounded by high peaks. Visit the Suru River and the Panikhar settlements, take in the Nun–Kun massif viewpoint, and drive past autumn-coloured fields and poplar groves and through traditional Suru Valley villages. Enjoy the peaceful autumn atmosphere, then return to Kargil for the night.",
+          },
+
+          {
+            day: "Day 4",
+
+            title: "Kargil to Aryan Valley | Batalik Sector",
+
+            description: "Follow the Indus River towards Aryan Valley and the Batalik sector. Explore the traditional Aryan villages, where autumn turns the valley into shades of gold and orange. Experience local village life, traditional buildings, terraced fields, and dramatic mountain scenery. Overnight stay in Aryan Valley or the Batalik region.",
+          },
+
+          {
+            day: "Day 5",
+
+            title: "Aryan Valley to Sham Valley | Monasteries & Autumn Landscapes",
+
+            description: "A day that combines Ladakh's Buddhist heritage with the warm colours of autumn. Visit Likir Monastery, enjoy a local pottery or farm experience, and see Alchi Monastery, traditional villages, Indus Valley viewpoints, and the autumn scenery of the Sham Valley. Overnight stay in the Sham Valley.",
+          },
+
+          {
+            day: "Day 6",
+
+            title: "Sham Valley to Srinagar | Across the High Passes",
+
+            description: "Drive back to Srinagar through high-altitude landscapes: Lamayuru, Fotu La Pass, Namika La Pass, and the Moonland formations, then Kargil, Zoji La Pass, and autumn valley scenery. Arrive in Srinagar by evening, where the tour concludes.",
           },
         ],
       },
     ],
   },
+
 ];

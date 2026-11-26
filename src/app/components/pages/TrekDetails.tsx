@@ -2,7 +2,10 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 
 import { treks } from "../../../data/treks";
+import { buildBookingLink } from "../../utils/whatsapp";
 
+import { useSeo } from "../../utils/seo";
+import { NotFound } from "./NotFound";
 export function TrekDetails() {
 
   const { slug } = useParams();
@@ -14,12 +17,14 @@ export function TrekDetails() {
   const [currentImage, setCurrentImage] =
     useState(0);
 
+  useSeo(
+    trek
+      ? { title: trek.name, description: `${trek.name} — ${trek.duration} in ${trek.region} with Climbex Adventures. ${trek.price} per person.`, image: trek.images?.[0] }
+      : { title: "Page not found", noindex: true }
+  );
+
   if (!trek) {
-    return (
-      <div className="min-h-screen bg-[#071018] flex items-center justify-center text-white text-3xl">
-        Trek Not Found
-      </div>
-    );
+    return <NotFound message="We couldn't find that trek." />;
   }
 
   return (
@@ -382,7 +387,12 @@ export function TrekDetails() {
 
               {/* BUTTON */}
               <a
-                href="https://wa.me/9797843568"
+                href={buildBookingLink({
+                  name: trek.name,
+                  duration: trek.duration,
+                  price: trek.price,
+                  location: trek.region,
+                })}
                 target="_blank"
                 rel="noopener noreferrer"
 
