@@ -345,6 +345,114 @@ export const destinations = [
 
     trips: [
       {
+        id: "6",
+        slug: "Winter-Zanskar-Kashmir-Suru-Kargil-Circuit",
+
+        name: "Winter Zanskar | Kashmir – Suru Valley – Zanskar – Kargil Circuit",
+
+        duration: "6 Days & 5 Nights",
+
+        difficulty: "Challenging (extreme cold)",
+
+        price: "Price on request",
+
+        date: "December - January",
+
+        images: [
+          "/images/travel/ladakh/winter-zanskar/1.jpg",
+          "/images/travel/ladakh/winter-zanskar/2.jpg",
+          "/images/travel/ladakh/winter-zanskar/3.jpg",
+          "/images/travel/ladakh/winter-zanskar/4.jpg",
+          "/images/travel/ladakh/winter-zanskar/5.jpg",
+          "/images/travel/ladakh/winter-zanskar/6.jpg",
+        ],
+
+        overview:
+          "An unforgettable winter journey through the frozen landscapes of Kashmir, Suru Valley and Zanskar. In December and January the region turns into a silent white world: snow walls line the high passes, glacial lakes and rivers freeze over, waterfalls become pillars of blue ice, and the ancient monasteries of Zanskar glow with butter lamps against the cold.\n\nThis expedition takes you over snowbound mountain passes, past frozen lakes and glaciers, through remote villages that stay cut off for much of the winter, and along the frozen Zanskar river. Temperatures drop to -20°C and below, so it suits travellers who are ready for real Himalayan winter conditions. Our experienced local team, 4×4 vehicles and flexible planning keep the journey safe and comfortable.\n\nPlease note: winter roads in Kashmir, Kargil and Zanskar depend on snowfall and official road status. The itinerary may change, be shortened or be re-routed at short notice for your safety.",
+
+        highlights: [
+          "Snow-covered Sonamarg and the snow walls of Zoji La",
+          "Drass, one of the coldest inhabited places on Earth",
+          "Nun–Kun massif under deep winter snow",
+          "Frozen glacial lakes and the Drang-Drung Glacier",
+          "Phugtal Monastery and the frozen Sheela Waterfall",
+          "Winter life in Zanskar's monasteries and villages",
+          "The frozen Zanskar river along the NPD road",
+          "Lamayuru's snow-dusted Moonland",
+        ],
+
+        includes: [
+          "Breakfast and Dinner",
+          "All transfers from Srinagar and back in a 4×4 vehicle suitable for snow",
+          "Driver lodgings, food, and other expenses",
+          "Road tolls, fuel, and cab charges",
+          "Guest House/Homestays/Hotel",
+          "All sightseeing as per the itinerary",
+        ],
+
+        excludes: [
+          "Travel insurance",
+          "Lunch and snacks",
+          "Monastery, park and camera fees",
+          "GST",
+          "Inner Line Permits",
+          "Extra nights, meals or vehicle charges caused by road closures, snowfall or weather delays",
+          "Anything not mentioned in inclusions",
+        ],
+
+        important_notes: "Winter itinerary — subject to weather and road conditions. Snowfall, avalanche warnings and official closures of Zoji La, Pensi La and the NPD road can change, shorten or re-route the trip at short notice, and our team will always choose the safest option. Temperatures can fall below -20°C, so carry heavy down jackets, thermals, insulated boots, gloves and a warm hat. Prepaid SIM cards do not work in UT Jammu & Kashmir and Ladakh. Carry your original ID proof and 2 photocopies.",
+
+        itinerary: [
+          {
+            day: "Day 1",
+
+            title: "Srinagar to Kargil via Sonamarg & Zoji La",
+
+            description: "Begin your winter journey from Srinagar through the snow-covered Sindh Valley, where frozen streams and white pine forests line the road. Stop at Sonamarg, transformed into a winter wonderland under deep snow. Cross the spectacular Zoji La Pass between towering walls of snow cleared by the BRO, then enter the frozen Drass Valley — one of the coldest inhabited places on Earth. Visit the Kargil War Memorial at Drass to pay tribute to the brave soldiers, standing silent in the snow, and continue to Kargil.\n\nOvernight stay: Kargil.",
+          },
+
+          {
+            day: "Day 2",
+
+            title: "Kargil to Padum via Suru Valley & Pensi La",
+
+            description: "An incredible day through the winter landscapes of Suru Valley and Zanskar. Drive along the frozen Suru river and enjoy views of Mount Nun and Kun wrapped in snow from the viewpoint. Explore the snowbound Shafat Valley and continue to Rangdum, where the plains lie under a thick white blanket. Weather and road permitting, cross Pensi La to see the frozen Lang Tso and Tsat Tso glacial lakes and the silent, ice-bound Drang-Drung Glacier, then stop at Sani Lake before reaching Padum. If Pensi La is snowbound, our team will re-route the journey to Padum via the NPD road.\n\nOvernight stay: Padum, Zanskar.",
+          },
+
+          {
+            day: "Day 3",
+
+            title: "Winter in Zanskar: Phugtal, Frozen Sheela Waterfall & Monasteries",
+
+            description: "Discover Zanskar in its deepest winter. Make an early excursion towards Phugtal Monastery, built into a cliff above the frozen river; the walk to the monastery on snowy trails depends on road access, snow and available time. Visit Sheela Waterfall, frozen into a giant column of blue ice. See the sacred mountain Gonbo Rangjon standing white against the winter sky. Visit Bardan Monastery, known for its unique architecture, and Karsha Monastery, one of the largest monasteries in Zanskar, where monks keep their prayers going through the long winter. Return to Padum in the evening.\n\nOvernight stay: Padum.",
+          },
+
+          {
+            day: "Day 4",
+
+            title: "Padum to Kargil via NPD Road & Lamayuru",
+
+            description: "Take the spectacular NPD (Nimmu–Padum–Darcha) road, which follows the Zanskar river gorge — in winter you will see the river frozen into the famous 'Chadar' ice sheets used by the frozen-river trek. Visit the historic Zangla Palace with views over the snowy valley, and Chilling village, known for its traditional metal craftsmanship. Stop at the confluence of the Zanskar and Indus rivers, partly frozen in winter. Continue to Lamayuru to explore its ancient monastery and the extraordinary Moonland landscape dusted with snow. Cross Fotu La and Namika La, both winter-white, and arrive in Kargil by evening.\n\nOvernight stay: Kargil.",
+          },
+
+          {
+            day: "Day 5",
+
+            title: "Kargil to Srinagar",
+
+            description: "After breakfast, begin your return journey through the frozen Drass Valley. Cross Zoji La again between its snow walls, enjoy the winter landscapes of Sonamarg, and continue through the Sindh Valley to Srinagar.\n\nOvernight stay: Srinagar.",
+          },
+
+          {
+            day: "Day 6",
+
+            title: "Departure from Srinagar",
+
+            description: "After breakfast, transfer to Srinagar Airport for your onward journey, with unforgettable memories of Kashmir and Zanskar in winter.",
+          },
+        ],
+      },
+      {
         id: "1",
         slug: "Indus-Valley-Demchok-Expedition",
         legacySlugs: ["Indus-Valley-&-Demchok-Expedition"],
