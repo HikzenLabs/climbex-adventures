@@ -358,6 +358,8 @@ export const destinations = [
 
         date: "December - January",
 
+        bestSeason: "December - January",
+
         images: [
           "/images/travel/ladakh/winter-zanskar/1.jpg",
           "/images/travel/ladakh/winter-zanskar/2.jpg",
