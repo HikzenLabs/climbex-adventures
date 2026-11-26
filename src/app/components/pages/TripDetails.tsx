@@ -140,7 +140,7 @@ export function TripDetails() {
                 <div>
                   <p className="text-white/50 text-sm">Best Season</p>
 
-                  <h4>{currentDestination?.bestSeason}</h4>
+                  <h4>{("bestSeason" in currentTrip && currentTrip.bestSeason) || currentDestination?.bestSeason}</h4>
                 </div>
 
               </div>
