@@ -883,6 +883,15 @@ export const iceClimbingInfo = {
 // ---------------------------------------------------------------------------
 export const featuredWinter = [
   {
+    id: "w-zanskar",
+    to: "/trip/ladakh/Winter-Zanskar-Kashmir-Suru-Kargil-Circuit",
+    activity: "Winter Expedition",
+    name: "Winter Zanskar Circuit",
+    meta: "6 Days · Dec – Jan · Kashmir, Suru & Zanskar",
+    price: "On request",
+    image: "/images/travel/ladakh/winter-zanskar/1.jpg",
+  },
+  {
     id: "w-ski-5d",
     to: `/skiing/${skiPackages[0].slug}`,
     activity: "Skiing",
